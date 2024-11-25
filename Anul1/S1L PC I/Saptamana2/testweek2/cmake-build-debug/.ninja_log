@@ -1,0 +1,25 @@
+# ninja log v6
+1	134	1728398770179394597	CMakeFiles/testweek2.dir/main.cpp.o.ddi	e9da84f08f423ab9
+134	142	1728398770319419809	CMakeFiles/testweek2.dir/CXX.dd	bc1cb9b77b08e241
+134	142	1728398770319419809	/home/tris/Desktop/Anul1/S1L ProgrcalcI/Saptamana2/testweek2/cmake-build-debug/CMakeFiles/testweek2.dir/CXXModules.json	bc1cb9b77b08e241
+134	142	1728398770319419809	CMakeFiles/testweek2.dir/main.cpp.o.modmap	bc1cb9b77b08e241
+143	717	1728398770319419809	CMakeFiles/testweek2.dir/main.cpp.o	a7fb85b0aefbc28c
+721	825	1728398770896190324	testweek2	a5e3c13c3eb0e97b
+4	132	1728398789245676785	CMakeFiles/testweek2.dir/main.cpp.o.ddi	e9da84f08f423ab9
+132	143	1728398789372359949	CMakeFiles/testweek2.dir/CXX.dd	bc1cb9b77b08e241
+132	143	1728398789372359949	/home/tris/Desktop/Anul1/S1L ProgrcalcI/Saptamana2/testweek2/cmake-build-debug/CMakeFiles/testweek2.dir/CXXModules.json	bc1cb9b77b08e241
+132	143	1728398789372359949	CMakeFiles/testweek2.dir/main.cpp.o.modmap	bc1cb9b77b08e241
+144	754	1728398789382361251	CMakeFiles/testweek2.dir/main.cpp.o	a7fb85b0aefbc28c
+754	856	1728398789995774463	testweek2	a5e3c13c3eb0e97b
+4	143	1728398800120306346	CMakeFiles/testweek2.dir/main.cpp.o.ddi	e9da84f08f423ab9
+143	151	1728398800260321397	CMakeFiles/testweek2.dir/CXX.dd	bc1cb9b77b08e241
+143	151	1728398800260321397	/home/tris/Desktop/Anul1/S1L ProgrcalcI/Saptamana2/testweek2/cmake-build-debug/CMakeFiles/testweek2.dir/CXXModules.json	bc1cb9b77b08e241
+143	151	1728398800260321397	CMakeFiles/testweek2.dir/main.cpp.o.modmap	bc1cb9b77b08e241
+151	742	1728398800266988780	CMakeFiles/testweek2.dir/main.cpp.o	a7fb85b0aefbc28c
+742	849	1728398800857052209	testweek2	a5e3c13c3eb0e97b
+2	138	1728398860417582225	CMakeFiles/testweek2.dir/main.cpp.o.ddi	e9da84f08f423ab9
+138	145	1728398860554253544	CMakeFiles/testweek2.dir/CXX.dd	bc1cb9b77b08e241
+138	145	1728398860554253544	/home/tris/Desktop/Anul1/S1L ProgrcalcI/Saptamana2/testweek2/cmake-build-debug/CMakeFiles/testweek2.dir/CXXModules.json	bc1cb9b77b08e241
+138	145	1728398860554253544	CMakeFiles/testweek2.dir/main.cpp.o.modmap	bc1cb9b77b08e241
+146	718	1728398860560920438	CMakeFiles/testweek2.dir/main.cpp.o	a7fb85b0aefbc28c
+718	810	1728398861134273194	testweek2	a5e3c13c3eb0e97b
