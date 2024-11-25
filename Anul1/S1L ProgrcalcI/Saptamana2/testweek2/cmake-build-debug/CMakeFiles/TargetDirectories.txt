@@ -1,0 +1,3 @@
+/home/tris/Desktop/Anul1/S1L ProgrcalcI/Saptamana2/testweek2/cmake-build-debug/CMakeFiles/testweek2.dir
+/home/tris/Desktop/Anul1/S1L ProgrcalcI/Saptamana2/testweek2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tris/Desktop/Anul1/S1L ProgrcalcI/Saptamana2/testweek2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

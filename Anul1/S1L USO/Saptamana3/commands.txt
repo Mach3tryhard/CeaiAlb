@@ -1,0 +1,8 @@
+info
+man
+less
+echo -n abcdef
+echo $PATH abc
+pwd
+whoami
+tty
