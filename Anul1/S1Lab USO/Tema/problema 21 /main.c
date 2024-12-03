@@ -31,20 +31,36 @@ int main(int argc, char *argv[]){
         perror(argv[3]);
         return 1;
     }
-
+    int ps=2,ls=2;
     char pattern[256];
-    char line[256];
-    while(fgets(line,sizeof(line),fout)){
-        
+    char *line=malloc(sizeof(char)* ls);
+
+    char c1,c2;
+
+    c2 = fgetc(fout);
+    line[0]=c2;
+    line[1]='\0';
+    while((c2 = fgetc(fout)) != EOF && c2 != '\n'){
         fseek(fin, 0, SEEK_SET);
+
+        ls++;
+        char *line = realloc(line, ls * sizeof(char));
+        line[ls-2]=c2;
+        line[ls-1]='\0';
+
         while(fgets(pattern, sizeof(pattern), fin)){
+            size_t len = strlen(pattern);
+            if (len > 0 && pattern[len - 1] == '\n') {
+                pattern[len - 1] = '\0';
+            }
+
             if(Comun(pattern,line)==1){
                 printf("%s",line);
                 break;
             }
         }
     }
-
+    free(line);
     fclose(fin);
     fclose(fout);
     return 0;
