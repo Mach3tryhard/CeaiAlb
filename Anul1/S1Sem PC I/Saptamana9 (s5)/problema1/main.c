@@ -71,7 +71,6 @@ int main()
     for(int i=0;i<n;i++){
         fprintf(fout,"%d ",*(v+i));
     }
-    /// ???
     printf("%d", v[4]);
     return 0;
 }
