@@ -9,6 +9,17 @@ char str[20]="";
 
 int n;
 
+unsigned int factorial(unsigned int N) {
+    int fact = 1, i;
+
+    // Loop from 1 to N to get the factorial
+    for (i = 1; i <= N; i++) {
+        fact *= i;
+    }
+
+    return fact;
+}
+
 int main(int argc,char* argv[])
 {
     ///CREATE PIPE
@@ -18,10 +29,8 @@ int main(int argc,char* argv[])
         exit(EXIT_FAILURE);
     }
 
-    if(argc==3)///CLOSE CHILD READ PIPE
-        //close(pipefd[0]);
     if(argc==2)
-        //close(pipefd[1]);
+        close(pipefd[1]);
 
     if (argc> 3) {
         fprintf(stderr, "Utilizare: %s <n> [prefix]\n", argv[0]);
@@ -33,6 +42,7 @@ int main(int argc,char* argv[])
         n=argv[1][0]-'0';
     }
     if(argc==3){
+        close(pipefd[0]);
         strcpy(str, argv[2]);
         int m=strlen(argv[2]);
         for(int i=0;i<m;i++){
@@ -55,7 +65,7 @@ int main(int argc,char* argv[])
                 tmp[1]='\0';
                 char str_copy[20];
                 strcpy(str_copy, str);
-                strcat(str_copy, tmp); 
+                strcat(str_copy, tmp);
 
                 char *program = argv[0];
                 char *args[4];
@@ -65,14 +75,13 @@ int main(int argc,char* argv[])
                 args[3] = NULL;
 
                 char *env[] = {NULL};
-                execve(program, args, env);
-                close(pipefd[1]);
+                execve(program, args, env); 
 
                 perror("execve o murit");
                 return 1;
             }
             /// ASTEAPTA COPIL DACA TREBUIE
-            //waitpid(pid, NULL, 0);
+            waitpid(pid, NULL, 0);
         }
     }
     ///COPILUL SCRIE IN PIPE DACA ARE PERMUTARE
@@ -81,23 +90,26 @@ int main(int argc,char* argv[])
             perror("write pipe error");
             exit(EXIT_FAILURE);
         }
-        write(pipefd[1], "\n", 1);
-        //printf("%s\n",argv[2]);
+        write(pipefd[1], "\n", 1);                                                                                                     
+        printf("%s\n",argv[2]);
+        close(pipefd[0]);
+    }
+    char buffer[1024];
+    ssize_t bytesRead = read(pipefd[0], buffer, sizeof(buffer) - 1);
+
+    int max=factorial(n);
+    int i=0;
+    while(i<max && argc==2){
+        i++;
+        buffer[bytesRead] = '\0';
+        bytesRead = read(pipefd[0], buffer, sizeof(buffer) - 1);
+        printf("%s\n",buffer);
+        printf("onebuf ");
     }
     close(pipefd[1]);
-
-    //if(argc==2){
-        char buffer[1024];
-        ssize_t bytesRead = read(pipefd[0], buffer, sizeof(buffer) - 1);
-        while(bytesRead>0){
-            buffer[bytesRead] = '\0';
-            printf("%s\n",buffer);
-        }
-    //}
-
     close(pipefd[0]);
 
-    while (wait(NULL) > 0)
-        ;
+    //while (wait(NULL) > 0)
+    //    ;
     return 0;
 }
