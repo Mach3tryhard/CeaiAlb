@@ -1,6 +1,6 @@
-1 - check
-2 - check
-3 - check
-4 - check
+1 - done
+2 - done
+3 - 0/3
+4 - 7/9
 5 - done
 6 - 3/8
