@@ -7,7 +7,6 @@ struct student{
     char nume[20];
 };
 
-
 int comp(const void *a, const void *b) {
 	struct student *studentA = (struct student *)a;
 	struct student *studentB = (struct student *)b;
