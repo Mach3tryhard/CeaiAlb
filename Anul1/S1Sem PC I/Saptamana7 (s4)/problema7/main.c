@@ -12,7 +12,7 @@ int n;
 
 void sortalfabetic(){
     for(int i=0;i<n-1;i++){
-        for(int j=i;j<n-1;j++){
+        for(int j=0;j<n-1;j++){
             if(strcmp(v[j].nume,v[j+1].nume)>0){
                 struct participanti aux;
                 aux=v[j];
@@ -22,6 +22,21 @@ void sortalfabetic(){
         }
     }
 }
+
+
+void sortmedie(){
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-1;j++){
+            if(v[j].media<v[j+1].media){
+                struct participanti aux;
+                aux=v[j];
+                v[j]=v[j+1];
+                v[j+1]=aux;
+            }
+        }
+    }
+}
+
 
 void calculmedie(){
     for(int i=0;i<n;i++){
@@ -49,11 +64,20 @@ int main()
     calculmedie();
     for(int i=0;i<n;i++){
         fprintf(fout,"%s ",v[i].nume);
-        fprintf(fout,"%d",v[i].nrinscriere);
+        fprintf(fout,"%d\n",v[i].nrinscriere);
         for(int j=0;j<3;j++){
-            fprintf(fout,"%f",v[i].note[j]);
+            fprintf(fout,"%f ",v[i].note[j]);
         }
         fprintf(fout,"\n%f\n",v[i].media);
+    }
+    sortmedie();
+    for(int i=0;i<n;i++){
+        printf("%s ",v[i].nume);
+        printf("%d\n",v[i].nrinscriere);
+        for(int j=0;j<3;j++){
+            printf("%f ",v[i].note[j]);
+        }
+        printf("\n%f\n",v[i].media);
     }
     return 0;
 }
