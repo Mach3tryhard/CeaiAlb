@@ -10,7 +10,6 @@ int main()
 {
     FILE* fin = fopen("text.in","r");
     FILE* fout = fopen("text.out","w");
-
     char v[1024];
     fscanf(fin,"%s",v);
     qsort(v, strlen(v), sizeof(char), comp);
