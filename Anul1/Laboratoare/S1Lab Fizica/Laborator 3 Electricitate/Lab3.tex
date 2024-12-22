@@ -1,0 +1,169 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+\usepackage{titling}
+\usepackage{circuitikz}
+
+\title{\bfseries Laborator Electricitate 3}
+\author{Sîrghe Matei}
+\date{\today}
+
+\pretitle{\begin{center}\LARGE\bfseries}
+\posttitle{\par\end{center}\vskip 0.5em}
+\preauthor{\begin{center}\large}
+\postauthor{\end{center}}
+\predate{\begin{center}\large}
+\postdate{\end{center}}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+    \LARGE\textit{Studiul condensatorului electric cu fețe plan-paralele și}
+    \LARGE\textit{Determinarea constantei dielectrice a unui izolator}
+\end{center}
+
+\section{Teoria Lucrării}
+
+\subsection{Schema Electrică}
+
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \textbf{Notație condensator :}
+    \begin{circuitikz} \draw
+        (0,0) to[C] (2,0);
+    \end{circuitikz}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{circuitikz} \draw
+        (0,0) to[battery] (2,0)
+        to[C] (4,0)
+        to[ground] (5,0);
+        \draw (2,1) node[right] {$+Q$};
+        \draw (3,1) node[right] {$-Q$};
+        \draw (2,-1) node[right] {$5C$};
+        \draw (3,-1) node[right] {$-5C$};
+    \end{circuitikz}
+\end{minipage}
+
+
+\noindent
+\textbf{Definiție : }Condensatorul electric este un dispozitiv format din doua plăci metalice așezate față în față separate de un mediu izolator sau dielectric.
+Plăcile metalice ale condensatorului se numesc armături și se încarcă cu aceeași cantitate de sarcină electrică dar de semn opus. Proprietatea
+fundamentală a unui condensator electric este aceea de a înmagazina $($reține$)$ pentru un anumit interval de timp sarcină electrică.
+
+\noindent
+\textbf{Mărimi fizice :} $[C]_{SI}$ Mărimea fizică care descrie comportamentele unui condensator electric se numește
+capacitate electrică și în sistemul internațional de unități se măsoară în \textbf{Farad}.
+
+\begin{center}
+    \centering
+    \begin{circuitikz} \draw
+        (0,0) to[battery] (2,0)
+        to[C] (4,0)
+        to[ground] (5,0);
+        \draw (2,1) node[right] {$+Q$};
+        \draw (3,1) node[right] {$-Q$};
+        \draw (2,-1) node[right] {$\rho_{N}$};
+        \draw (3,-1) node[right] {$\rho_{M}=0$};
+    \end{circuitikz}
+\end{center}
+
+\noindent
+\textbf{Formule fizice :}
+\begin{enumerate}
+    \item $[C]_{SI}$ = 1 F (Farad) = 1 C/V (Coulomb pe Volt)
+    \item $C=\frac{+Q}{\rho_{N}-\rho_{M}}=\frac{-Q}{\rho_{M}-\rho_{N}}=\frac{\left| Q \right|}{U_{NM}}$
+    \item $\Delta\rho = U $ - tensiune electrică
+    \item $\left| \rho_{M}-\rho_{N} \right| = U_{NM} $ - Diferența de potențial 
+\end{enumerate}
+
+\subsection{Montajul Experimental}
+
+\begin{center}
+    \centering
+    \begin{circuitikz} \draw
+        (0,0) to[battery] (2,0)
+        to[C] (4,0)
+        to[ground] (4,-2)
+        to[ground] (5,-2)
+        to[ground] (5,0-4)
+        (5,0) to[C] (6,0)
+        
+        (8,0) node[op amp] (opamp) {};
+        \draw (opamp.+) -- ++(0,-0.5) node[ground] {};
+        \draw (opamp.-) -- ++(0,-0.5) -| (0,0);
+        \draw (opamp.out) -- ++(1,0) node[right] {Out};
+
+        to[voltmeter] (8,0)
+
+        \draw (0,-1) node[right] {$[\rho]=V$};
+        \draw (0,1) node[right] {$+$};
+        \draw (2,1) node[right] {$+Q$};
+        \draw (3,1) node[right] {$-Q$};
+        \draw (2,-1) node[right] {$5C$};
+        \draw (3,-1) node[right] {$-5C$};
+    \end{circuitikz}
+\end{center}
+
+\section{Datele Experimentului Primare}
+Datele experimentale primare reprezintă datele culese din laborator în timpul efectuării lucrării de laborator și trebuie scrise complet așa
+cum sunt citite de pe aparatele de măsură. Mărimea fizică citită va fi însoțită de unitatea de măsură aferentă.
+
+\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
+De preferat este ca aceste date experimentale să fie înscrise sub forma unor tabele pentru o mai bună organizare.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
+La plecarea din laborator, datele experimentale pentru lucrarea respectivă trebuie să fie complete.
+\end{tcolorbox}
+
+\section{Prelucrarea datelor experimentale}
+Această secțiune reprezintă aportul avut de fiecare în realizarea referatului de laborator. Dacă datele experimentale primare nu sunt exprimate
+în unități ale sistemului internațional de unități, atunci se va face conversia.
+
+\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Exemplu]
+Din miliamperi în amperi: $1 mA = 10^{-3} A$.
+\end{tcolorbox}
+
+Graficele se vor insera la lucrarea de laborator căreia îi aparțin și nu la finalul tuturor lucrărilor de laborator. Graficele se vor face fie folosind
+un program specializat, fie pe hârtie milimetrică. Curbele Graficului se vor trasa cu creionul.
+
+\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
+Nu sunt acceptate graficele făcute pe hârtia de caiet sau pe foi albe.
+\end{tcolorbox}
+
+Numărul zecimalelor indicate în urma calculelor matematice trebuie corelate cu numărul zecimalelor citite în laborator.
+
+\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Exemplu]
+Am citit 9.4 unități, iar rezultatul este 1.234 unități dar trecem 1.2 deoarece nu putem garanta că 0.034 este precis.
+\end{tcolorbox}
+
+\section{Concluzii}
+Concluzia referatului trebuie să fie scurtă,(1-2 propoziții) și să indice principalul rezultat obținut după efectuarea lucrării de laborator.
+
+\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Exemplu]
+Am măsurat puterea de 120 W a unui bec.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
+Referatele de laborator se pot scrie folosind programe de calculator pentru tipărirea lor sau pot fi scrise de mână.
+Se poate aduce caiet sau coli albe. Dacă se folosește un caiet, referatele lucrărilor de laborator trebuie să ocupe o parte dedicată a acestuia
+și să fie consecutive.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
+Referatul de laborator este individual și se lucrează individual!
+\end{tcolorbox}
+
+\end{document}
