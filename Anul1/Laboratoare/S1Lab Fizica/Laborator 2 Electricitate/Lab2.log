@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.22)  22 DEC 2024 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.22)  22 DEC 2024 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,45 +486,61 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \tcb@temp=\box72
 \tcb@temp=\box73
 \tcb@temp=\box74
+) (C:\Users\matei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\matei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\matei\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen265
+\WF@size=\dimen266
+\c@WF@wrappedlines=\count307
+\WF@box=\box75
+\WF@everypar=\toks40
+Package: wrapfig 2003/01/31  v 3.6
 )
 (C:\Users\matei\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
-\l__pdf_internal_box=\box75
-)
-No file Lab2.aux.
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box76
+) (Lab2.aux)
 \openout1 = `Lab2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 (C:\Users\matei\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen265
-\scratchbox=\box76
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen266
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count309
+\scratchdimen=\dimen267
+\scratchbox=\box77
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen268
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks42
 )
 (C:\Users\matei\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -536,10 +552,48 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+
+ (C:\Users\matei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+
+
+(C:\Users\matei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<electroscop.png, id=4, 1003.75pt x 1003.75pt>
+File: electroscop.png Graphic file (type png)
+<use electroscop.png>
+Package pdftex.def Info: electroscop.png  used on input line 29.
+(pdftex.def)             Requested size: 148.2019pt x 148.19734pt.
+
+Underfull \hbox (badness 1286) in paragraph at lines 34--36
+[]\OT1/cmr/m/n/12 Dac^^Ua frec^^Uam cu c^arpa un ma-te-
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 34--36
+\OT1/cmr/m/n/12 rial izo-la-tor []i apropiem ma-te-ri-
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 34--36
+\OT1/cmr/m/n/12 nu-mite poz-i-tiv^^Ua []i neg-a-tiv^^Ua care
+ []
+
+
+Overfull \hbox (9.99954pt too wide) detected at line 41
+\OMS/cmsy/m/n/12 ^^H !  	  ^^H  ! ^^H  	  ! 	
+ []
+
+
 
 [1
 
-{C:/Users/matei/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/matei/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./electrosco
+p.png>]
 
 [2] (Lab2.aux)
  ***********
@@ -548,23 +602,21 @@ L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15197 strings out of 473650
- 321936 string characters out of 5717934
- 688486 words of memory out of 5000000
- 38089 multiletter control sequences out of 15000+600000
- 564055 words of font info for 57 fonts, out of 8000000 for 9000
+ 15769 strings out of 473650
+ 328554 string characters out of 5717934
+ 687279 words of memory out of 5000000
+ 38638 multiletter control sequences out of 15000+600000
+ 566525 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,8n,107p,421b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,7n,107p,441b,213s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/matei/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matei/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Lab2.pdf (2 pages, 69177 bytes).
+fonts/cm/cmr12.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr6.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Lab2.pdf (2 pages, 234424 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

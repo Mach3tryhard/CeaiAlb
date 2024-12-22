@@ -5,6 +5,8 @@
 \usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage{tcolorbox}
+\usepackage{amssymb}
+\usepackage{wrapfig}
 
 \title{\bfseries Laborator Electricitate 2}
 \author{Sîrghe Matei}
@@ -18,57 +20,41 @@
 \maketitle
 
 \section{Teoria Lucrării}
-În cadrul acestei secțiuni, vor fi discutate procedeele și fenomenele fizice care vor fi utilizate în cadrul lucrării de laborator împreună
-cu mărimile fizice aferente și unitățile lor de măsură. Notițele scrise în sala de seminar pot fi folosite integral pentru această secțiune.
+Putem depista experimental dacă un obiect este electrizat cu ajutorul electroscopului. Dacă electroscopul se descarcă, atunci obiectul este electrizat.
 
-\section{Datele Experimentului Primare}
-Datele experimentale primare reprezintă datele culese din laborator în timpul efectuării lucrării de laborator și trebuie scrise complet așa
-cum sunt citite de pe aparatele de măsură. Mărimea fizică citită va fi însoțită de unitatea de măsură aferentă.
+\section{Electroscopul}
 
-\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
-De preferat este ca aceste date experimentale să fie înscrise sub forma unor tabele pentru o mai bună organizare.
-\end{tcolorbox}
+\begin{wrapfigure}{r}{0.5\textwidth} % 'r' for right, '0.4\textwidth' for 40% of the text width
+    \centering
+    \includegraphics[width=0.38\textwidth]{electroscop.png} % Adjust the width as needed
+    \caption{Imaginea unui electroscop}
+    \label{fig:electroscop}
+\end{wrapfigure}
 
-\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
-La plecarea din laborator, datele experimentale pentru lucrarea respectivă trebuie să fie complete.
-\end{tcolorbox}
+Dacă frecăm cu cârpa un material izolator și apropiem materialul de electroscop, constatăm că acul electroscopului deviază. Există doua feluri
+de sarcină electrică numite pozitivă și negativă care interacționează astfel.
 
-\section{Prelucrarea datelor experimentale}
-Această secțiune reprezintă aportul avut de fiecare în realizarea referatului de laborator. Dacă datele experimentale primare nu sunt exprimate
-în unități ale sistemului internațional de unități, atunci se va face conversia.
+\[
+\oplus \rightarrow \leftarrow \ominus \quad 
+\quad \oplus \leftarrow \rightarrow \oplus \quad 
+\quad \ominus \leftarrow \rightarrow \ominus
+\]
 
-\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Exemplu]
-Din miliamperi în amperi: $1 mA = 10^{-3} A$.
-\end{tcolorbox}
 
-Graficele se vor insera la lucrarea de laborator căreia îi aparțin și nu la finalul tuturor lucrărilor de laborator. Graficele se vor face fie folosind
-un program specializat, fie pe hârtie milimetrică. Curbele Graficului se vor trasa cu creionul.
+Plus cu plus se resping.
 
-\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
-Nu sunt acceptate graficele făcute pe hârtia de caiet sau pe foi albe.
-\end{tcolorbox}
+Minus cu minus se resping.
 
-Numărul zecimalelor indicate în urma calculelor matematice trebuie corelate cu numărul zecimalelor citite în laborator.
+Plus cu minus se atrag.
+\section{Electrizarea}
+Izolatoarele nu sunt toate la fel de bune. De exemplu, aerul este un izolator mai bun decât hartia. Metalele se comportă diferit față de Izolatoarele
+deoarece au înăuntru lor electroni liberi când izolatoarele au foarte puțini electroni liberi.
+Cu ajutorul fizicii moderne, putem explica foarte ușor de ce deviază acul electroscopului. Să presupunem că apropiem un corp electrizat pozitiv
+de electroscop. 
 
-\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Exemplu]
-Am citit 9.4 unități, iar rezultatul este 1.234 unități dar trecem 1.2 deoarece nu putem garanta că 0.034 este precis.
-\end{tcolorbox}
-
-\section{Concluzii}
-Concluzia referatului trebuie să fie scurtă,(1-2 propoziții) și să indice principalul rezultat obținut după efectuarea lucrării de laborator.
-
-\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Exemplu]
-Am măsurat puterea de 120 W a unui bec.
-\end{tcolorbox}
-
-\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
-Referatele de laborator se pot scrie folosind programe de calculator pentru tipărirea lor sau pot fi scrise de mână.
-Se poate aduce caiet sau coli albe. Dacă se folosește un caiet, referatele lucrărilor de laborator trebuie să ocupe o parte dedicată a acestuia
-și să fie consecutive.
-\end{tcolorbox}
-
-\begin{tcolorbox}[colback=yellow!10!white, colframe=black, title=Observație]
-Referatul de laborator este individual și se lucrează individual!
-\end{tcolorbox}
+Electronii liberi din bila eletroscopului, din tija metalică groasă și din acul subțire metalic sunt atrași de către corpul pozitiv
+înspre partea superioară a electroscopului. În timpul mișcării, locul de unde pleacă acești electroni rămâne încărcat pozitiv , inclusiv capătul
+de jos al tijei și capătul de jos al acului metalic. În consecință , + cu  + se va respinge și acul deviază. Nu putem afla semnul sarcinii doar
+cu electroscopul. El ne indică doar dacă un obiect este electrizat sau nu.
 
 \end{document}
