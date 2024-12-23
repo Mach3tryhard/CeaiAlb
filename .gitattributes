@@ -1,0 +1,17 @@
+# Override language detection for specific file types
+*.c linguist-language=C
+*.cpp linguist-language=C++
+
+# Exclude specific directories from language statistics
+path/to/generated/files/* linguist-vendored
+path/to/large/config/files/* linguist-vendored
+
+# Exclude files that might be confused as SWIG files
+*.i linguist-vendored
+*.swg linguist-vendored
+*.swig linguist-vendored
+*.swginc linguist-vendored
+*.swgdef linguist-vendored
+
+# Exclude specific files from language statistics
+path/to/specific/file.ext linguist-vendored
