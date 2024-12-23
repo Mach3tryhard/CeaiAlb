@@ -9,6 +9,10 @@
 \usepackage{circuitikz}
 \usepackage{enumitem}
 \usepackage{wrapfig}
+\usepackage{float}
+\usepackage{pgfplots}
+\usepackage{hyperref}
+\pgfplotsset{compat=1.18}
 
 \title{\bfseries Laborator Electricitate 3}
 \author{Sîrghe Matei}
@@ -142,7 +146,7 @@ sursei de înaltă tensiune rămâne constantă. ($\rho- $ cnst.)
 
 \subsection{ Determinarea constantei dielectrice a unui izolator \textbf{$(\epsilon_{r})$}}
 
-\begin{wrapfigure}{r}{0.5\textwidth} 
+\begin{wrapfigure}{r}{0.3\textwidth} 
     \centering
     \includegraphics[width=0.38\textwidth]{dielectric.png} 
     \caption{Izolator dielectric}
@@ -150,7 +154,7 @@ sursei de înaltă tensiune rămâne constantă. ($\rho- $ cnst.)
 \end{wrapfigure}
 
 Pentru punctele a) și b) izolatorul considerat a fost aer. Pentru acest punct, vom face mai întâi determinări experimentale folosind aerul
-ca izolator iar apoi în același condiții experimentale vom face măsurători folosind o placă de plastic pe care o vom introduce între cele două armături.
+ca izolator iar apoi în același condiții experimentale vom face măsurători folosind o placă de plastic pe care o vom introduce între cele două armături.\\
 
 $\rho$ = constant ; d=constant \\
 
@@ -165,23 +169,203 @@ $\epsilon_{r}=\frac{C_{izolator}}{C_{aer}}$  ;  $\epsilon_{r}-adimensional$\\
 
 
 \section{Datele Experimentului Primare}
-Datele experimentale primare reprezintă datele culese din laborator în timpul efectuării lucrării de laborator și trebuie scrise complet așa
-cum sunt citite de pe aparatele de măsură. Mărimea fizică citită va fi însoțită de unitatea de măsură aferentă.
+Acestea sunt datele exerimentale : 
 
+\subsection{Tabel pentru subpunctul A}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Nr. Experiment & $\rho (kV)$ & $U (V)$  & $d (cm)$ \\
+        \hline
+        1 & 1,1 & 0,32 & 0,5 \\
+        \hline
+        2 & 1,4 & 0,42 & 0,5 \\
+        \hline
+        3 & 1,7 & 0,52 & 0,5 \\
+        \hline
+        4 & 2,0 & 0,62 & 0,5 \\
+        \hline
+        5 & 2,3 & 0,72 & 0,5 \\
+        \hline
+        6 & 2,6 & 0,80 & 0,5 \\
+        \hline
+        7 & 2,9 & 0,86 & 0,5 \\
+        \hline
+        8 & 3,2 & 0,98 & 0,5 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Tabel pentru subpunctul B}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Nr. Experiment & $\rho (kV)$ & $U (V)$  & $d (cm)$ \\
+        \hline
+        1 & 2,0 & 1,00 & 0,5 \\
+        \hline
+        2 & 2,0 & 0,80 & 0,8 \\
+        \hline
+        3 & 2,0 & 0,56 & 1,1 \\
+        \hline
+        4 & 2,0 & 0,48 & 1,4 \\
+        \hline
+        5 & 2,0 & 0,44 & 1,7 \\
+        \hline
+        6 & 2,0 & 0,40 & 2,0 \\
+        \hline
+        7 & 2,0 & 0,38 & 2,1 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Tabel pentru subpunctul C}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        Nr. Experiment & $\rho (kV)$ & $U (V)$  & $d (cm)$ & izolator \\
+        \hline
+        1 & 5,0 & 2,80 & 1 & plastic \\
+        \hline
+        2 & 5,0 & 1,30 & 1 & aer \\
+        \hline
+        3 & 2,5 & 2,00 & 1 & plastic \\
+        \hline
+        4 & 2,5 & 0,74 & 1 & aer\\
+        \hline
+    \end{tabular}
+\end{table}
 
 \section{Prelucrarea datelor experimentale}
-Această secțiune reprezintă aportul avut de fiecare în realizarea referatului de laborator. Dacă datele experimentale primare nu sunt exprimate
-în unități ale sistemului internațional de unități, atunci se va face conversia.
 
-Graficele se vor insera la lucrarea de laborator căreia îi aparțin și nu la finalul tuturor lucrărilor de laborator. Graficele se vor face fie folosind
-un program specializat, fie pe hârtie milimetrică. Curbele Graficului se vor trasa cu creionul.
+\subsection{Calcule punctul A}
 
+$Q_{1} = C_{0}U=0,22 \times 10^{-6}F \times 0,32V = 7 \times 10^{-8}C = 0,7 \times 10^{-7}C $\\
+$Q_{2} = C_{0}U=0,22 \times 10^{-6}F \times 0,42V = 9 \times 10^{-8}C = 0,9 \times 10^{-7}C $\\
+$Q_{3} = C_{0}U=0,22 \times 10^{-6}F \times 0,52V = 1,1 \times 10^{-7}C$\\
+$Q_{4} = C_{0}U=0,22 \times 10^{-6}F \times 0,62V = 1,3 \times 10^{-7}C$\\
+$Q_{5} = C_{0}U=0,22 \times 10^{-6}F \times 0,72V = 1,5 \times 10^{-7}C$\\
+$Q_{6} = C_{0}U=0,22 \times 10^{-6}F \times 0,80V = 1,7 \times 10^{-7}C$\\
+$Q_{7} = C_{0}U=0,22 \times 10^{-6}F \times 0,86V = 1,9 \times 10^{-7}C$\\
+$Q_{8} = C_{0}U=0,22 \times 10^{-6}F \times 0,98V = 2,1 \times 10^{-7}C$\\
 
-Numărul zecimalelor indicate în urma calculelor matematice trebuie corelate cu numărul zecimalelor citite în laborator.
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            xlabel={$\rho$ (kV)},
+            ylabel={$Q$ ($C \times 10^{-7}$)},
+            grid=major,
+            width=0.8\textwidth,
+            height=0.35\textwidth,
+            xmin=1, xmax=3.5,
+            ymin=0.5, ymax=2.5,
+        ]
+        \addplot[
+            color=blue,
+            mark=*,
+            ]
+            coordinates {
+                (1.1, 0.7)
+                (1.4, 0.9)
+                (1.7, 1.1)
+                (2.0, 1.3)
+                (2.3, 1.5)
+                (2.6, 1.7)
+                (2.9, 1.9)
+                (3.2, 2.1)
+            };
+        \addplot [
+            domain=1:3.5, 
+            samples=100, 
+            color=red,
+        ]{0.6667*x -0.03333};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Grafic cu $Q$ și $\rho$}
+    \label{fig:Q_vs_rho}
+\end{figure}
 
+Am utilizat site-ul \href{https://www.graphpad.com}{GraphPad} pentru a obține dreapta de regresie liniară.Ecuația obținută este : $Q=0,6667 \times \rho-0,03333 \implies C=0,6667 \times 10^{-7}F$\\
+
+\subsection{Calcule punctul B}
+$Q_{1} = C_{0}U = 0,22 \times 10^{-6}F \times 1,00V = 2,2 \times 10^{-7}C$\\
+$C_{1} = \frac{Q_{1}}{\rho} = \frac{2,2 \times 10^{-7}C}{2,0kV} = 1,1 \times 10^{-7}F$\\
+$Q_{2} = C_{0}U = 0,22 \times 10^{-6}F \times 0,80V = 1,76 \times 10^{-7}C$\\
+$C_{2} = \frac{Q_{2}}{\rho} = \frac{1,76 \times 10^{-7}C}{2,0kV} = 0,88 \times 10^{-7}F$\\
+$Q_{3} = C_{0}U = 0,22 \times 10^{-6}F \times 0,56V = 1,232 \times 10^{-7}C$\\
+$C_{3} = \frac{Q_{3}}{\rho} = \frac{1,232 \times 10^{-7}C}{2,0kV} = 0,616 \times 10^{-7}F$\\
+$Q_{4} = C_{0}U = 0,22 \times 10^{-6}F \times 0,48V = 1,056 \times 10^{-7}C$\\
+$C_{4} = \frac{Q_{4}}{\rho} = \frac{1,056 \times 10^{-7}C}{2,0kV} = 0,528 \times 10^{-7}F$\\
+$Q_{5} = C_{0}U = 0,22 \times 10^{-6}F \times 0,44V = 0,968 \times 10^{-7}C$\\
+$C_{5} = \frac{Q_{5}}{\rho} = \frac{0,968 \times 10^{-7}C}{2,0kV} = 0,484 \times 10^{-7}F$\\
+$Q_{6} = C_{0}U = 0,22 \times 10^{-6}F \times 0,40V = 0,88 \times 10^{-7}C$\\
+$C_{6} = \frac{Q_{6}}{\rho} = \frac{0,88 \times 10^{-7}C}{2,0kV} = 0,44 \times 10^{-7}F$\\
+$Q_{7} = C_{0}U = 0,22 \times 10^{-6}F \times 0,38V = 0,836 \times 10^{-7}C$\\
+$C_{7} = \frac{Q_{7}}{\rho} = \frac{0,836 \times 10^{-7}C}{2,0kV} = 0,418 \times 10^{-7}F$\\
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            xlabel={$\frac{1}{d}$ (cm$^{-1}$)},
+            ylabel={$C$ ($F \times 10^{-7}$)},
+            grid=major,
+            width=0.8\textwidth,
+            height=0.4\textwidth,
+            legend pos=north west,
+        ]
+        \addplot[
+            color=blue,
+            mark=*,
+            ]
+            coordinates {
+                (2.0, 1.1)
+                (1.25, 0.88)
+                (0.909, 0.616)
+                (0.714, 0.528)
+                (0.588, 0.484)
+                (0.5, 0.44)
+                (0.476, 0.418)
+            };
+        \addlegendentry{Data points}
+
+        \addplot [
+            domain=0.4:2.1, 
+            samples=100, 
+            color=red,
+        ]{0.55*x +0.1 };
+        \addlegendentry{Regression line}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Grafic cu $C$ și $\frac{1}{d}$}
+    \label{fig:C_vs_1_d}
+\end{figure}
+
+Am utilizat site-ul \href{https://www.graphpad.com}{GraphPad} pentru a obține dreapta de regresie liniară. Ecuația obținută este : $f = 2.114 \times x + 0.1511 \implies 2 \times C \approx \frac{1}{d}$\\
+
+\subsection{Calcule punctul C}
+
+$C_{0} = 0.22 \times 10^{-6} \, F$\\
+$Q_{1,\text{plastic}} = C_{0}U = 0.22 \times 10^{-6}F \times 2.80V = 6.16 \times 10^{-7}C$\\
+$C_{1,\text{plastic}} = \frac{Q_{1,\text{plastic}}}{\rho} = \frac{6.16 \times 10^{-7}C}{5.0kV} = 1.232 \times 10^{-7}F$\\
+$Q_{1,\text{aer}} = C_{0}U = 0.22 \times 10^{-6}F \times 1.30V = 2.86 \times 10^{-7}C$\\
+$C_{1,\text{aer}} = \frac{Q_{1,\text{aer}}}{\rho} = \frac{2.86 \times 10^{-7}C}{5.0kV} = 0.572 \times 10^{-7}F$\\
+$\epsilon_{r1} = \frac{C_{1,\text{plastic}}}{C_{1,\text{aer}}} = \frac{1.232 \times 10^{-7}F}{0.572 \times 10^{-7}F} \approx 2.15$\\
+$Q_{2,\text{plastic}} = C_{0}U = 0.22 \times 10^{-6}F \times 2.00V = 4.4 \times 10^{-7}C$\\
+$C_{2,\text{plastic}} = \frac{Q_{2,\text{plastic}}}{\rho} = \frac{4.4 \times 10^{-7}C}{2.5kV} = 1.76 \times 10^{-7}F$\\
+$Q_{2,\text{aer}} = C_{0}U = 0.22 \times 10^{-6}F \times 0.74V = 1.628 \times 10^{-7}C$\\
+$C_{2,\text{aer}} = \frac{Q_{2,\text{aer}}}{\rho} = \frac{1.628 \times 10^{-7}C}{2.5kV} = 0.6512 \times 10^{-7}F$\\
+$\epsilon_{r2} = \frac{C_{2,\text{plastic}}}{C_{2,\text{aer}}} = \frac{1.76 \times 10^{-7}F}{0.6512 \times 10^{-7}F} \approx 2.70$\\
 
 \section{Concluzii}
-Concluzia referatului trebuie să fie scurtă,(1-2 propoziții) și să indice principalul rezultat obținut după efectuarea lucrării de laborator.
 
+În urma experimentelor, am demonstrat că \( C \sim \frac{1}{d} \), am calculat valorile capacităților pentru diferite distanțe și am determinat constantele dielectrice ale izolatorilor folosiți, obținând valori de aproximativ 2.15 și 2.70 pentru plastic.
 
 \end{document}
