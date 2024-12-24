@@ -3,8 +3,8 @@
 *.cpp linguist-language=C++
 
 # Exclude specific directories from language statistics
-path/to/generated/files/* linguist-vendored
-path/to/large/config/files/* linguist-vendored
+Anul1/Proiecte\ Facultate/Hyperboloid-Visualizer/* linguist-vendored
+Anul1/Seminarii/S1Sem\ Alg&Geo/Teme/ProiectMate/* linguist-vendored
 
 # Exclude files that might be confused as SWIG files
 *.i linguist-vendored
