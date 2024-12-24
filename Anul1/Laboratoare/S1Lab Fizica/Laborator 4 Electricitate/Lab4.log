@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.22)  24 DEC 2024 13:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.22)  24 DEC 2024 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -894,27 +894,30 @@ LaTeX Warning: Label `fig:vectors_in_plane' multiply defined.
 
 LaTeX Warning: Label `fig:circle_ellipse_vectors' multiply defined.
 
+
+LaTeX Warning: Label `fig:circle_ellipse_vectors' multiply defined.
+
 )
 \openout1 = `Lab4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (C:\Users\matei\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -944,18 +947,18 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 27.
 (Lab4.out) (Lab4.out)
 \@outlinefile=\write4
 \openout4 = `Lab4.out'.
 
 
-Overfull \hbox (10.12708pt too wide) in paragraph at lines 46--47
+Overfull \hbox (10.12708pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
 
-Overfull \hbox (10.12708pt too wide) in paragraph at lines 103--104
+Overfull \hbox (10.12708pt too wide) in paragraph at lines 112--113
  [][] 
  []
 
@@ -964,8 +967,30 @@ Overfull \hbox (10.12708pt too wide) in paragraph at lines 103--104
 [1
 
 {C:/Users/matei/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (63.80847pt too wide) detected at line 148
+[][][][] [] \OML/cmm/m/it/12 a[]b[] \OT1/cmr/m/n/12 = [](\OML/cmm/m/it/12 a[]b[
+] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a[]b[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 
+a[]b[]\OT1/cmr/m/n/12 ) = (\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 + \OML/cmm/m/it
+/12 a[]\OT1/cmr/m/n/12 )(\OML/cmm/m/it/12 b[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/1
+2 b[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 b[]\OT1/cmr/m/n/12 ) = ([] \OML/cmm/m/
+it/12 a[]\OT1/cmr/m/n/12 )([] \OML/cmm/m/it/12 b[]\OT1/cmr/m/n/12 ) = [] [] \OM
+L/cmm/m/it/12 a[]b[]
+ []
 
-[2] (Lab4.aux)
+
+
+[2]
+
+[3]
+Overfull \hbox (28.34729pt too wide) in paragraph at lines 229--235
+[]$ \OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/12 )  [][] \OT1/cmr/m/n/12 = [][]$
+ []
+
+
+
+[4]
+
+[5] (Lab4.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
@@ -975,25 +1000,32 @@ L3 programming layer <2024-11-02>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Lab4.out' has not changed.
-(rerunfilecheck)             Checksum: 2105A30669A6C24132366C46BF3DF6AC;257.
+(rerunfilecheck)             Checksum: A570D8B947C5545350BD9E8160A6D658;917.
  ) 
 Here is how much of TeX's memory you used:
- 49779 strings out of 473650
- 1302618 string characters out of 5717934
- 2015856 words of memory out of 5000000
- 72336 multiletter control sequences out of 15000+600000
+ 49829 strings out of 473650
+ 1303301 string characters out of 5717934
+ 2024855 words of memory out of 5000000
+ 72352 multiletter control sequences out of 15000+600000
  564672 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,10n,107p,723b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,11n,107p,723b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx7.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matei/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-Output written on Lab4.pdf (2 pages, 63075 bytes).
+blic/amsfonts/cm/cmex10.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matei/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/matei/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matei/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/matei/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ma
+tei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb>
+Output written on Lab4.pdf (5 pages, 149946 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 149 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
