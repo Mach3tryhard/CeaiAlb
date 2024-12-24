@@ -12,6 +12,11 @@ Anul1/Seminarii/S1Sem\ Alg&Geo/Teme/ProiectMate/* linguist-vendored
 *.swig linguist-vendored
 *.swginc linguist-vendored
 *.swgdef linguist-vendored
+# Exclude files that might be confused as HTML files
+*.html linguist-vendored
+*.htm linguist-vendored
+*.xhtml linguist-vendored
+*.xml linguist-vendored
 
 # Exclude specific files from language statistics
 path/to/specific/file.ext linguist-vendored
