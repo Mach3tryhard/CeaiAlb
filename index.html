@@ -21,6 +21,14 @@
             .font-celestenet {
                 font-family: 'Poppins', sans-serif;
             }
+            .bg-dark {
+                background-color: #10111C;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+            }
+            .bg-light {
+                background-color: #E7E2F3;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+            }
         }
         .video-bg {
             position: absolute;
@@ -33,7 +41,8 @@
             position: relative;
         }
         .middle-section {
-            background: url('Site/Media/background.png') no-repeat center center;
+            background: url('Site/Media/background.png')  no-repeat center center fixed;
+            z-index: 3;
             background-size: cover;
         }
     </style>
@@ -43,7 +52,7 @@
         <source src="/Site/Media/TitleBack.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <header class="text-white py-44 bg-black">
+    <header class="text-white py-48 bg-black">
         <div class="container mx-auto text-center header-content rounded-none">
             <h1 class="font-celestenet text-6xl font-bold mb-10 tracking-wider">Sîrghe Matei</h1>
             <a class="font-celestenet text-xm ">Projects made by me and what I work on.</a>
@@ -57,32 +66,50 @@
             </div>
         </div>
     </header> 
-    <div class=" middle-section  text-center header-content rounded-none">
-        <div class="container mx-auto flex space-x-4">
-            <div class="w-1/3 flex flex-col space-y-4 h-64">
-                <div class="bg-white p-4">
-                    <!-- Left side content -->
-                    <p>Left side content</p>
+    <div class="middle-section text-center header-content py-12 ">
+        <div class="flex justify-between items-start max-w-full px-12 space-x-12">
+            <!-- Left Side -->
+            <div class="w-1/3 flex flex-col space-y-8">
+                <div class="bg-dark py-8 px-6 rounded-xl shadow">
+                    <h1 class="font-celestenet text-left text-white text-2xl font-bold mb-2 tracking-wider">Titlu</h1>
+                    <p class="font-celestenet text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus elit ac malesuada viverra. Vestibulum consectetur porttitor iaculis. Aenean vel nisi et dui dapibus bibendum. Donec aliquet pellentesque viverra. Nullam tellus magna, tempor nec lacus a, consequat rhoncus augue. Donec vitae aliquet mauris. Fusce ornare tempus rhoncus. Cras venenatis neque at ante blandit, ac faucibus ante ultricies.
+
+                        Nullam dignissim nisl sit amet odio venenatis vehicula. Donec aliquam vitae dolor in euismod. Fusce pulvinar eros semper ligula congue suscipit non vitae tellus. Donec ut eleifend nibh, a mattis turpis. Etiam eu mollis felis, a eleifend nulla. Maecenas tempor molestie nisi et tristique. Duis tempus, neque ut lobortis condimentum, lectus mauris bibendum libero, non vulputate nibh nisl vitae diam. Nullam eu lectus eu odio iaculis molestie non ut purus. Etiam viverra dolor a volutpat faucibus. Nam sodales turpis ligula, sed euismod enim consequat vestibulum.
+                        
+                        Etiam id ex velit. Morbi eget tristique magna. Nam in consequat ante. Etiam molestie, nisl non euismod mollis, est leo varius elit, condimentum posuere lectus nisl sit amet ipsum. In vitae arcu eleifend, tempor diam sed, pellentesque dui. Vivamus vel bibendum ligula, id blandit eros. Nunc congue sed est vel sagittis. Pellentesque consequat posuere mattis. Curabitur sollicitudin pulvinar dolor ut ultricies. Nunc maximus nibh vitae sapien pharetra, sed consectetur ipsum pellentesque. Nunc tincidunt, turpis id finibus placerat, felis ipsum imperdiet sapien, sed tincidunt lacus quam et magna. Ut sodales tortor a efficitur viverra. Maecenas sollicitudin sit amet enim ac commodo. Integer eu efficitur nunc, vitae aliquam est. Suspendisse fermentum tincidunt justo eget finibus. Praesent aliquam ligula ut hendrerit venenatis.
+                        
+                        Cras a lobortis elit. Aenean quis posuere enim. Vivamus est lectus, euismod a ante eget, porta dictum sapien. In lacinia euismod risus, vitae porta massa consequat vel. Cras sollicitudin ante sit amet augue interdum, vel euismod est elementum. Etiam et risus orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam et nunc sit amet augue dignissim dictum. Etiam fringilla elit at erat convallis, eu eleifend sapien lacinia. Duis cursus, nulla et ultrices dignissim, neque nibh pharetra ipsum, nec vehicula mauris orci in augue. Integer ornare aliquet pretium. Integer orci mauris, aliquet sed tempus at, consectetur in libero. Donec suscipit vehicula laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        
+                        Mauris suscipit erat et lobortis pellentesque. Nullam porta maximus ex, vitae congue sem aliquet ac. Pellentesque rhoncus aliquet nisi a viverra. Quisque a lorem sit amet mauris feugiat porta at sed ligula. Nulla lacinia dictum urna at feugiat. Nunc nec egestas arcu. Sed aliquet elit in ante aliquam semper. Suspendisse interdum nisi at libero imperdiet imperdiet. Donec varius tellus id tristique fringilla. In sed semper velit, eget facilisis nisl. Integer eleifend molestie odio ut auctor. Nunc a dolor metus. Aliquam nec suscipit tellus, non pulvinar nulla. Cras lacinia, lorem eu malesuada ullamcorper, arcu sem semper quam, eu rhoncus diam tortor ac quam.</p>
                 </div>
-                <div class="bg-white p-4">
-                    <!-- Left side content -->
-                    <p>Left side content</p>
+                <div class="bg-dark py-8 px-6 rounded-xl shadow">
+                    <p class="font-celestenet text-left text-white">Left side content</p>
                 </div>
-                <!-- Add more left side divs as needed -->
             </div>
-            <div class="w-2/3 flex flex-col space-y-4 h-80">
-                <div class="bg-white p-4 h-60">
-                    <!-- Right side content -->
-                    <p>Right side content</p>
+            
+            <!-- Right Side -->
+            <div class="w-2/3 flex flex-col space-y-8">
+                <div class="bg-light py-8 px-6 rounded-xl shadow">
+                    <h1 class="font-celestenet text-left text-black text-2xl font-bold mb-2 tracking-wider">Titlu</h1>
+                    <p class="font-celestenet text-left text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus elit ac malesuada viverra. Vestibulum consectetur porttitor iaculis. Aenean vel nisi et dui dapibus bibendum. Donec aliquet pellentesque viverra. Nullam tellus magna, tempor nec lacus a, consequat rhoncus augue. Donec vitae aliquet mauris. Fusce ornare tempus rhoncus. Cras venenatis neque at ante blandit, ac faucibus ante ultricies.
+
+                        Nullam dignissim nisl sit amet odio venenatis vehicula. Donec aliquam vitae dolor in euismod. Fusce pulvinar eros semper ligula congue suscipit non vitae tellus. Donec ut eleifend nibh, a mattis turpis. Etiam eu mollis felis, a eleifend nulla. Maecenas tempor molestie nisi et tristique. Duis tempus, neque ut lobortis condimentum, lectus mauris bibendum libero, non vulputate nibh nisl vitae diam. Nullam eu lectus eu odio iaculis molestie non ut purus. Etiam viverra dolor a volutpat faucibus. Nam sodales turpis ligula, sed euismod enim consequat vestibulum.
+                        
+                        Etiam id ex velit. Morbi eget tristique magna. Nam in consequat ante. Etiam molestie, nisl non euismod mollis, est leo varius elit, condimentum posuere lectus nisl sit amet ipsum. In vitae arcu eleifend, tempor diam sed, pellentesque dui. Vivamus vel bibendum ligula, id blandit eros. Nunc congue sed est vel sagittis. Pellentesque consequat posuere mattis. Curabitur sollicitudin pulvinar dolor ut ultricies. Nunc maximus nibh vitae sapien pharetra, sed consectetur ipsum pellentesque. Nunc tincidunt, turpis id finibus placerat, felis ipsum imperdiet sapien, sed tincidunt lacus quam et magna. Ut sodales tortor a efficitur viverra. Maecenas sollicitudin sit amet enim ac commodo. Integer eu efficitur nunc, vitae aliquam est. Suspendisse fermentum tincidunt justo eget finibus. Praesent aliquam ligula ut hendrerit venenatis.
+                        
+                        Cras a lobortis elit. Aenean quis posuere enim. Vivamus est lectus, euismod a ante eget, porta dictum sapien. In lacinia euismod risus, vitae porta massa consequat vel. Cras sollicitudin ante sit amet augue interdum, vel euismod est elementum. Etiam et risus orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam et nunc sit amet augue dignissim dictum. Etiam fringilla elit at erat convallis, eu eleifend sapien lacinia. Duis cursus, nulla et ultrices dignissim, neque nibh pharetra ipsum, nec vehicula mauris orci in augue. Integer ornare aliquet pretium. Integer orci mauris, aliquet sed tempus at, consectetur in libero. Donec suscipit vehicula laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        
+                        Mauris suscipit erat et lobortis pellentesque. Nullam porta maximus ex, vitae congue sem aliquet ac. Pellentesque rhoncus aliquet nisi a viverra. Quisque a lorem sit amet mauris feugiat porta at sed ligula. Nulla lacinia dictum urna at feugiat. Nunc nec egestas arcu. Sed aliquet elit in ante aliquam semper. Suspendisse interdum nisi at libero imperdiet imperdiet. Donec varius tellus id tristique fringilla. In sed semper velit, eget facilisis nisl. Integer eleifend molestie odio ut auctor. Nunc a dolor metus. Aliquam nec suscipit tellus, non pulvinar nulla. Cras lacinia, lorem eu malesuada ullamcorper, arcu sem semper quam, eu rhoncus diam tortor ac quam.</p>
                 </div>
-                <div class="bg-white p-4">
-                    <!-- Right side content -->
-                    <p>Right side content</p>
+                <div class="bg-light py-8 px-6 rounded-xl shadow">
+                    <p class="font-celestenet text-left text-black">Right side content</p>
                 </div>
-                <!-- Add more right side divs as needed -->
             </div>
         </div>
     </div>
+    
+    
+    
 </body>
 <script>
     function downloadCV() {
