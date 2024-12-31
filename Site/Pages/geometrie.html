@@ -41,7 +41,7 @@
             position: relative;
         }
         .middle-section {
-            background: url('../Media/background.png')  no-repeat center center fixed;
+            background: url('Site/Media/background.png')  no-repeat center center fixed;
             z-index: 3;
             background-size: cover;
         }
@@ -49,7 +49,7 @@
 </head>
 <body class="relative">
     <video class="video-bg" autoplay loop muted>
-        <source src="../Media/TitleBack.mp4" type="video/mp4">
+        <source src="Site/Media/TitleBack.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <header class="text-white py-44 bg-black">
@@ -57,7 +57,7 @@
             <h1 class="font-celestenet text-6xl font-bold mb-10 tracking-wider">Sîrghe Matei</h1>
             <a class="font-celestenet text-xm ">Projects made by me and what I work on.</a>
             <div class="flex justify-center py-7">
-                <a href="../CV/main.pdf" download class="bg-purple-500 hover:bg-purple-700 text-white text-2xl  py-3 px-8 rounded-sm mr-5 ">
+                <a href="Site/CV/main.pdf" download class="bg-purple-500 hover:bg-purple-700 text-white text-2xl  py-3 px-8 rounded-sm mr-5 ">
                     <i class="fas fa-download mr-2"></i>Download CV
                 </a>
                 <button class="bg-purple-500 hover:bg-purple-700 text-white text-2xl py-2 px-8 rounded-sm">
@@ -91,14 +91,14 @@
             <div class="w-2/3 flex flex-col space-y-8">
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
                     <div class="flex items-center space-x-4">
-                        <img class="w-16 h-16 rounded-full justify-between" src="/Site/Media/unibuc.jpg" alt="unibuc">
+                        <img class="w-16 h-16 rounded-full justify-between" src="Site/Media/unibuc.jpg" alt="unibuc">
                         <p class="font-celestenet text-left text-black ml-auto">
                             Currenly doing my undergraduate studies at University of Bucharest, Faculty of Mathematics and Computer Science.
                         </p>
                     </div>
                     <div class="flex items-center space-x-4 ">
-                        <img class="w-16 h-16 rounded-full" src="/Site/Media/fizica.png" alt="unibuc">
-                        <img class="w-16 h-16 rounded-full" src="/Site/Media/fmi.png" alt="unibuc">
+                        <img class="w-16 h-16 rounded-full" src="Site/Media/fizica.png" alt="unibuc">
+                        <img class="w-16 h-16 rounded-full" src="Site/Media/fmi.png" alt="unibuc">
                         <p class="font-celestenet text-left text-black mr-auto">
                             Computer Science and Information Technology specialization.
                         </p>
@@ -107,7 +107,7 @@
                 </div>
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
                     <div class="flex items-center space-x-4">
-                        <img class="w-16 h-16 rounded-full" src="/Site/Media/vianu.jpg" alt="vianu">
+                        <img class="w-16 h-16 rounded-full" src="Site/Media/vianu.jpg" alt="vianu">
                         <p class="font-celestenet text-left text-black">
                             Finished my secondary education at "Tudor Vianu" National College of Informatics
                         </p>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
                     <div class="flex items-center space-x-4">
-                        <img class="w-16 h-16 rounded-full" src="/Site/Media/vianu.jpg" alt="vianu">
+                        <img class="w-16 h-16 rounded-full" src="Site/Media/vianu.jpg" alt="vianu">
                         <p class="font-celestenet text-left text-black">
                             Finished middle school education at "Tudor Vianu" National College of Informatics
                         </p>
@@ -127,11 +127,13 @@
         </div>
     </div>
     
+    
+    
 </body>
 <script>
     function GoToPage(pagina){
         if(pagina=="main"){
-            window.location.href = "/index.html";
+            window.location.href = "/CeaiAlb";
             return;
         }
         window.location.href = "/Site/Pages/"+pagina+".html";
