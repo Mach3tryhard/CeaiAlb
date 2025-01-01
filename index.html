@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <style>
         
         @font-face {
@@ -111,7 +110,7 @@
                         <p class="font-celestenet text-left text-black">
                             Finished my secondary education at "Tudor Vianu" National College of Informatics
                         </p>
-                        <h1 class="font-celestenet text-left text-black text-2xl font-bold ml-auto mb-2 tracking-wider">2021-2024</h1>
+                        <h1 class="font-celestenet text-left text-black text-2xl font-bold mb-2 tracking-wider">2021-2024</h1>
                     </div>
                 </div>
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
@@ -120,7 +119,7 @@
                         <p class="font-celestenet text-left text-black">
                             Finished middle school education at "Tudor Vianu" National College of Informatics
                         </p>
-                        <h1 class="font-celestenet text-right text-black text-2xl ml-auto font-bold mb-2 tracking-wider">2016-2020</h1>
+                        <h1 class="font-celestenet text-left text-black text-2xl font-bold mb-2 tracking-wider">2016-2020</h1>
                     </div>
                 </div>
             </div>
@@ -133,10 +132,10 @@
 <script>
     function GoToPage(pagina){
         if(pagina=="main"){
-            window.location.href = "/CeaiAlb";
+            window.location.href =/*"/CeaiAlb/*/ "/index.html";
             return;
         }
-        window.location.href = "/CeaiAlb/Site/Pages/"+pagina+".html";
+        window.location.href = /*"/CeaiAlb/Site/Pages/"*/ "/Site/Pages/"+pagina+".html";
     }
     function downloadCV() {
         var blob = new Blob(["Your CV content here"], { type: "text/plain;charset=utf-8" });

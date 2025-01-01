@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <style>
         
         @font-face {
@@ -41,7 +40,7 @@
             position: relative;
         }
         .middle-section {
-            background: url('Site/Media/background.png')  no-repeat center center fixed;
+            background: url('../Media/background.png')  no-repeat center center fixed;
             z-index: 3;
             background-size: cover;
         }
@@ -49,15 +48,15 @@
 </head>
 <body class="relative">
     <video class="video-bg" autoplay loop muted>
-        <source src="Site/Media/TitleBack.mp4" type="video/mp4">
+        <source src="../Media/TitleBack.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <header class="text-white py-44 bg-black">
         <div class="container mx-auto text-center header-content rounded-none">
-            <h1 class="font-celestenet text-6xl font-bold mb-10 tracking-wider">Sîrghe Matei</h1>
-            <a class="font-celestenet text-xm ">Projects made by me and what I work on.</a>
+            <h1 class="font-celestenet text-6xl font-bold mb-10 tracking-wider">Geometry</h1>
+            <a class="font-celestenet text-xm ">Projects that are based on geometry and math.</a>
             <div class="flex justify-center py-7">
-                <a href="Site/CV/main.pdf" download class="bg-purple-500 hover:bg-purple-700 text-white text-2xl  py-3 px-8 rounded-sm mr-5 ">
+                <a href="../CV/main.pdf" download class="bg-purple-500 hover:bg-purple-700 text-white text-2xl  py-3 px-8 rounded-sm mr-5 ">
                     <i class="fas fa-download mr-2"></i>Download CV
                 </a>
                 <button class="bg-purple-500 hover:bg-purple-700 text-white text-2xl py-2 px-8 rounded-sm">
@@ -90,37 +89,37 @@
             <!-- Right Side -->
             <div class="w-2/3 flex flex-col space-y-8">
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
-                    <div class="flex items-center space-x-4">
-                        <img class="w-16 h-16 rounded-full justify-between" src="Site/Media/unibuc.jpg" alt="unibuc">
+                    <div class="flex items-center space-x-4 justify-between">
+                        <img class="w-40 h-32 justify-between rounded-md" src="../Media/hyperboloid.png" alt="unibuc">
                         <p class="font-celestenet text-left text-black ml-auto">
-                            Currenly doing my undergraduate studies at University of Bucharest, Faculty of Mathematics and Computer Science.
+                            Hyperboloid visualizer project I made for university. Very customizable.
                         </p>
+                        <h1 class="font-celestenet text-right text-black text-2xl font-bold ml-auto mb-2 tracking-wider">2024</h1>
                     </div>
-                    <div class="flex items-center space-x-4 ">
-                        <img class="w-16 h-16 rounded-full" src="Site/Media/fizica.png" alt="unibuc">
-                        <img class="w-16 h-16 rounded-full" src="Site/Media/fmi.png" alt="unibuc">
-                        <p class="font-celestenet text-left text-black mr-auto">
-                            Computer Science and Information Technology specialization.
-                        </p>
-                        <h1 class="font-celestenet text-right text-black text-2xl font-bold mb-2 tracking-wider">2024-2028</h1>
-                    </div>
-                </div>
-                <div class="bg-light py-8 px-6 rounded-xl shadow">
-                    <div class="flex items-center space-x-4">
-                        <img class="w-16 h-16 rounded-full" src="Site/Media/vianu.jpg" alt="vianu">
-                        <p class="font-celestenet text-left text-black">
-                            Finished my secondary education at "Tudor Vianu" National College of Informatics
-                        </p>
-                        <h1 class="font-celestenet text-left text-black text-2xl font-bold ml-auto mb-2 tracking-wider">2021-2024</h1>
+                    <div class="flex items-center space-x-4 mt-4">
+                        <button class="bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://github.com/Mach3tryhard/Hyperboloid-Visualizer')">
+                            <i class="fas fa-code mr-2"></i>Code
+                        </button>
+                        <button class="bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://mach3tryhard.github.io/Hyperboloid-Visualizer/')">
+                            <i class="fas fa-link mr-2"></i>Link
+                        </button>
                     </div>
                 </div>
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
-                    <div class="flex items-center space-x-4">
-                        <img class="w-16 h-16 rounded-full" src="Site/Media/vianu.jpg" alt="vianu">
+                    <div class="flex items-center space-x-4 justify-between">
+                        <img class="w-40 h-30 rounded-md" src="../Media/menger.png" alt="vianu">
                         <p class="font-celestenet text-left text-black">
-                            Finished middle school education at "Tudor Vianu" National College of Informatics
+                            Menger universal curve generator that I coded in my free time.
                         </p>
-                        <h1 class="font-celestenet text-right text-black text-2xl ml-auto font-bold mb-2 tracking-wider">2016-2020</h1>
+                        <h1 class="font-celestenet text-left text-black text-2xl font-bold mb-2 tracking-wider">2023</h1>
+                    </div>
+                    <div class="flex items-center space-x-4 mt-4">
+                        <button class="bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://github.com/Mach3tryhard/Menger-Universal-Curve')">
+                            <i class="fas fa-code mr-2"></i>Code
+                        </button>
+                        <button class="bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://mach3tryhard.github.io/Menger-Universal-Curve/')">
+                            <i class="fas fa-link mr-2"></i>Link
+                        </button>
                     </div>
                 </div>
             </div>
@@ -132,11 +131,15 @@
 </body>
 <script>
     function GoToPage(pagina){
-        if(pagina=="main"){
-            window.location.href = "/CeaiAlb";
+        if(pagina[0]=='h' && pagina[1]=='t' && pagina[2]=='t' && pagina[3]=='p'){
+            window.location.href = pagina;
             return;
         }
-        window.location.href = "/CeaiAlb/Site/Pages/"+pagina+".html";
+        if(pagina=="main"){
+            window.location.href =/*"/CeaiAlb/*/ "/index.html";
+            return;
+        }
+        window.location.href = /*"/CeaiAlb/Site/Pages/"*/ "/Site/Pages/"+pagina+".html";
     }
     function downloadCV() {
         var blob = new Blob(["Your CV content here"], { type: "text/plain;charset=utf-8" });
