@@ -53,8 +53,8 @@
     </video>
     <header class="text-white py-44 bg-black">
         <div class="container mx-auto text-center header-content rounded-none">
-            <h1 class="font-celestenet text-6xl font-bold mb-10 tracking-wider">Geometry</h1>
-            <a class="font-celestenet text-xm ">Projects that are based on geometry and math.</a>
+            <h1 class="font-celestenet text-6xl font-bold mb-10 tracking-wider">Physics and Simulations</h1>
+            <a class="font-celestenet text-xm ">Projects that are based on physics and simulations.</a>
             <div class="flex justify-center py-7">
                 <a href="../CV/main.pdf" download class="bg-purple-500 hover:bg-purple-700 text-white text-2xl  py-3 px-8 rounded-sm mr-5 ">
                     <i class="fas fa-download mr-2"></i>Download CV
@@ -78,10 +78,16 @@
                         Main
                     </button>
                     <p class="font-celestenet text-left text-white mt-4">
-                        Geometry related projects:
+                        Geometry and math related projects:
                     </p>
-                    <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('geometrie')">
+                    <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('geometry')">
                         Geometry
+                    </button>
+                    <p class="font-celestenet text-left text-white mt-4">
+                        Physics and simulation related projects:
+                    </p>
+                    <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('physics')">
+                        Physics
                     </button>
                 </div>
             </div>
@@ -89,45 +95,62 @@
             <!-- Right Side -->
             <div class="w-2/3 flex flex-col space-y-8">
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
-                    <div class="flex items-center space-x-4 justify-between">
-                        <img class="w-40 h-32 justify-between rounded-md" src="../Media/hyperboloid.png" alt="unibuc">
-                        <p class="font-celestenet text-left text-black ml-auto">
-                            Hyperboloid visualizer project I made for university. Very customizable.
+                    <div class="flex items-center space-x-4 justify-between flow-root">
+                        <img class="float-left w-32 h-32 justify-between rounded-md" src="../Media/tokamak.png" alt="tokamak">
+                        <h1 class="font-celestenet float-left text-black text-2xl font-bold ml-auto tracking-wider mt-10">Tokamak-Simulator</h1>
+                        <p class="float-left font-celestenet text-left text-black mt-4">
+                            Big Simplification of a Tokamak reactor. You can control the plasma temperature and the plasma density. The simulator is made in javascript.
                         </p>
-                        <h1 class="font-celestenet text-right text-black text-2xl font-bold ml-auto mb-2 tracking-wider">2024</h1>
                     </div>
-                    <div class="flex items-center space-x-4 mt-4">
-                        <button class="bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://github.com/Mach3tryhard/Hyperboloid-Visualizer')">
+                    <div class="flex items-center space-x-4 mt-4 flow-root">
+                        <button class="float-left bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://github.com/Mach3tryhard/Tokamak-Simulator')">
                             <i class="fas fa-code mr-2"></i>Code
                         </button>
-                        <button class="bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://mach3tryhard.github.io/Hyperboloid-Visualizer/')">
+                        <button class="float-left bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://mach3tryhard.github.io/Tokamak-Simulator/')">
                             <i class="fas fa-link mr-2"></i>Link
                         </button>
+                        <h1 class="font-celestenet float-right text-black text-2xl font-bold ml-auto mb-2 tracking-wider">2023</h1>
                     </div>
                 </div>
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
-                    <div class="flex items-center space-x-4 justify-between">
-                        <img class="w-40 h-30 rounded-md" src="../Media/menger.png" alt="vianu">
-                        <p class="font-celestenet text-left text-black">
-                            Menger universal curve generator that I coded in my free time.
+                    <div class="flex items-center space-x-4 justify-between flow-root">
+                        <img class="float-left w-32 h-32 justify-between rounded-md" src="../Media/evolution.png" alt="Evolution race">
+                        <h1 class="font-celestenet float-left text-black text-2xl font-bold ml-auto tracking-wider mt-12">Evolution Race</h1>
+                        <p class="float-left font-celestenet text-left text-black mt-4">
+                            Game that simulates cells that get their energy from different sources and evolve in order to survive. The game is made in javascript.
                         </p>
-                        <h1 class="font-celestenet text-left text-black text-2xl font-bold mb-2 tracking-wider">2023</h1>
                     </div>
-                    <div class="flex items-center space-x-4 mt-4">
-                        <button class="bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://github.com/Mach3tryhard/Menger-Universal-Curve')">
+                    <div class="flex items-center space-x-4 mt-4 flow-root">
+                        <button class="float-left bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://github.com/Mach3tryhard/Evolution-Race')">
                             <i class="fas fa-code mr-2"></i>Code
                         </button>
-                        <button class="bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://mach3tryhard.github.io/Menger-Universal-Curve/')">
+                        <button class="float-left bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://mach3tryhard.github.io/Evolution-Race/')">
                             <i class="fas fa-link mr-2"></i>Link
                         </button>
+                        <h1 class="font-celestenet float-right text-black text-2xl font-bold ml-auto mb-2 tracking-wider">2022</h1>
+                    </div>
+                </div>
+                <div class="bg-light py-8 px-6 rounded-xl shadow">
+                    <div class="flex items-center space-x-4 justify-between flow-root">
+                        <img class="float-left w-32 h-32 justify-between rounded-md" src="../Media/2dgravity.png" alt="Evolution race">
+                        <h1 class="font-celestenet float-left text-black text-2xl font-bold ml-auto tracking-wider mt-12">2D Gravity</h1>
+                        <p class="float-left font-celestenet text-left text-black mt-4">
+                            2D gravity simulator that I made in javascript. You can see planets and how they interact with each other.
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-4 mt-4 flow-root">
+                        <button class="float-left bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://github.com/Mach3tryhard/2D-Forces-Test')">
+                            <i class="fas fa-code mr-2"></i>Code
+                        </button>
+                        <button class="float-left bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://mach3tryhard.github.io/2D-Forces-Test/')">
+                            <i class="fas fa-link mr-2"></i>Link
+                        </button>
+                        <h1 class="font-celestenet float-right text-black text-2xl font-bold ml-auto mb-2 tracking-wider">2021</h1>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
 </body>
 <script>
     function GoToPage(pagina){
