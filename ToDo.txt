@@ -4,8 +4,13 @@ Termina Lab PC
 Invata la analiza
 Scaneaza tot ce ai scris
 -SITE TODO
-Adauga pagina de Physics
-Adauga pagina de Competitive programming
-Adauga pagina de Artificial Intelligence
-Adauga Pagina de Games
-Adauga pagina de Websites
+All the socials
+-linktree
+-facebook
+-twitter
+-instagram
+-discord
+
+Geometry and Math
+Physics and Simulation
+

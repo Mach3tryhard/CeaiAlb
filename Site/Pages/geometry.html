@@ -32,7 +32,7 @@
         .video-bg {
             position: absolute;
             width: 100%;
-            height: 50%;
+            height: 40%;
             object-fit: center;
             filter: blur(5px);
         }
@@ -89,9 +89,38 @@
                     <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('physics')">
                         Physics
                     </button>
+                    <p class="font-celestenet text-left text-white mt-4">
+                        Competitive programming websites I use:
+                    </p>
+                    <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('algorithm')">
+                        Competitive programming
+                    </button>
+                    <p class="font-celestenet text-left text-white mt-4">
+                        Games I have made in my free time:
+                    </p>
+                    <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('games')">
+                        Games
+                    </button>
+                    <p class="font-celestenet text-left text-white mt-4">
+                        A.I. and Machine Learning projects:
+                    </p>
+                    <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('machinelearning')">
+                        Machine learning
+                    </button>
+                    <p class="font-celestenet text-left text-white mt-4">
+                        Website and visualizer projects:
+                    </p>
+                    <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('websites')">
+                        Websites
+                    </button>
+                    <p class="font-celestenet text-left text-white mt-4">
+                        All of my socials:
+                    </p>
+                    <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('socials')">
+                        Socials
+                    </button>
                 </div>
             </div>
-            
             <!-- Right Side -->
             <div class="w-2/3 flex flex-col space-y-8">
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
@@ -146,9 +175,5 @@
         }
         window.location.href = /*"/CeaiAlb/Site/Pages/"*/ "/Site/Pages/"+pagina+".html";
     }
-    function downloadCV() {
-        var blob = new Blob(["Your CV content here"], { type: "text/plain;charset=utf-8" });
-        saveAs(blob, "CV.txt");
-}
 </script>
 </html>
