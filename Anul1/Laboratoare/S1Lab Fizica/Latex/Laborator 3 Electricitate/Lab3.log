@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.22)  23 DEC 2024 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.22)  10 JAN 2025 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1012,7 +1012,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 147.
 
-<dielectric.png, id=81, 312.16624pt x 288.07625pt>
+<dielectric.png, id=93, 312.16624pt x 288.07625pt>
 File: dielectric.png Graphic file (type png)
 <use dielectric.png>
 Package pdftex.def Info: dielectric.png  used on input line 151.
@@ -1108,24 +1108,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 351--352
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Lab3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Lab3.out':
-(rerunfilecheck)             Before: BF88B047FE89C2272DC4915C2E4A09D7;2427
-(rerunfilecheck)             After:  83A5D8C9E3A0B873E2FDDCD832D821E2;2814.
+Package rerunfilecheck Info: File `Lab3.out' has not changed.
+(rerunfilecheck)             Checksum: 83A5D8C9E3A0B873E2FDDCD832D821E2;2814.
  ) 
 Here is how much of TeX's memory you used:
- 50573 strings out of 473650
- 1324029 string characters out of 5717934
- 2057251 words of memory out of 5000000
- 73094 multiletter control sequences out of 15000+600000
+ 50576 strings out of 473650
+ 1324108 string characters out of 5717934
+ 2057291 words of memory out of 5000000
+ 73097 multiletter control sequences out of 15000+600000
  569498 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,19n,107p,723b,2248s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1148,9 +1138,9 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matei/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/matei/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/matei/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Lab3.pdf (7 pages, 230738 bytes).
+Output written on Lab3.pdf (7 pages, 232161 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
+ 217 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
