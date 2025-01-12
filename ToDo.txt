@@ -2,15 +2,15 @@
 Parcurgi Laboratoarele USO
 Termina Lab PC 
 Invata la analiza
-Scaneaza tot ce ai scris
+Scaneaza curs PL
+Scaneaza Lab Mecanica (cautat resurse trimise)
+Scris curs Electricitate lipsa
+Scanat curs electricitate
+tablele cu lectii lab uso
 -SITE TODO
-All the socials
--linktree
--facebook
--twitter
--instagram
--discord
+Adauga Langston ant si termina featureurile
 
+title change
 Geometry and Math
 Physics and Simulation
 
