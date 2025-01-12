@@ -1,0 +1,241 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper,top=1in,bottom=1in,left=1in,right=1in]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usetikzlibrary{graphs}
+\usetikzlibrary{graphdrawing}
+\usegdlibrary{force}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\title{\bfseries Laborator Proiectare Logică 7}
+\author{Sîrghe Matei}
+\date{November 27, 2024}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\begin{document}
+\maketitle
+
+\begin{center}
+    \large{\textbf{Encoder}}
+\end{center}
+
+\renewcommand{\arraystretch}{1}
+
+\begin{figure}[h!]
+    \begin{minipage}{0.5\textwidth}
+        \begin{tikzpicture}
+            \draw[-] (0.25,0) -- (1.75,0);
+            \draw[-] (2,-0.25) -- (2,-1.75);
+            \draw[-] (2,-2.25) -- (2,-3.75);
+            \draw[-] (1.75,-4) -- (0.25,-4);
+            \draw[-] (0,-3.75) -- (0,-2.25);
+            \draw[-] (0,-1.75) -- (0,-0.25);
+            \draw[-] (0.25,-2) -- (1.75,-2);
+
+            \node at (-0.5, -1) {f};
+            \node at (-0.5, -3) {e};
+            \node at (2.5, -1) {b};
+            \node at (2.5, -3) {c};
+            \node at (1, 0.5) {a};
+            \node at (1, -1.5) {g};
+            \node at (1, -4.5) {d};
+
+        \end{tikzpicture}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.5\textwidth}
+        \begin{tikzpicture}
+            \draw[-] (0,0) -- (2,0);
+            \draw[-] (2,0) -- (2,-2);
+            \draw[-] (2,-2) -- (2,-4);
+            \draw[-] (2,-4) -- (0,-4);
+            \draw[-] (0,-4) -- (0,-2);
+            \draw[-] (0,-2) -- (0,0);
+
+            \draw[-] (-0.75,-0.5) -- (0,-0.5);
+            \node at (-1.25,-0.5) {A};
+            \draw[-] (-0.75,-1.5) -- (0,-1.5);
+            \node at (-1.25,-1.5) {B};
+            \draw[-] (-0.75,-2.5) -- (0,-2.5);
+            \node at (-1.25,-2.5) {C};
+            \draw[-] (-0.75,-3.5) -- (0,-3.5);
+            \node at (-1.25,-3.5) {D};
+
+            \draw[-] (2,-0.5) -- (2.6,-0.5);
+            \draw[-] (2,-1.5) -- (2.6,-1.5);
+            \draw[-] (2,-2.5) -- (2.6,-2.5);
+            \draw[-] (2,-3.5) -- (2.6,-3.5);
+
+            \draw[-] (3.6,-0.5) -- (4,-0.5);
+            \draw[-] (3.6,-1.5) -- (4,-1.5);
+            \draw[-] (3.6,-2.5) -- (4,-2.5);
+            \draw[-] (3.6,-3.5) -- (4,-3.5);
+
+            \draw[-] (4,-0.5) -- (4,-4.5);
+
+            \coordinate (B) at (2.6,-0.25);
+            \coordinate (A) at (3,-0.5);
+            \coordinate (C) at (2.6,-0.75);
+            \draw[-] (3,-0.25) -- (3,-0.75);
+            \draw[thick] (A) -- (B) -- (C) -- cycle;
+
+            \coordinate (A1) at (3.1,-0.25);
+            \coordinate (B1) at (3.1,-0.75);
+            \coordinate (C1) at (3.6,-0.75);
+            \coordinate (D1) at (3.6,-0.25);
+            \draw[thick] (A1) -- (B1) -- (C1) -- (D1) -- cycle;
+            %
+            \coordinate (B2) at (2.6,-1.25);
+            \coordinate (A2) at (3,-1.5);
+            \coordinate (C2) at (2.6,-1.75);
+            \draw[-] (3,-1.25) -- (3,-1.75);
+            \draw[thick] (A2) -- (B2) -- (C2) -- cycle;
+
+            \coordinate (A3) at (3.1,-1.25);
+            \coordinate (B3) at (3.1,-1.75);
+            \coordinate (C3) at (3.6,-1.75);
+            \coordinate (D3) at (3.6,-1.25);
+            \draw[thick] (A3) -- (B3) -- (C3) -- (D3) -- cycle;
+            %
+            \coordinate (B4) at (2.6,-2.25);
+            \coordinate (A4) at (3,-2.5);
+            \coordinate (C4) at (2.6,-2.75);
+            \draw[-] (3,-2.25) -- (3,-2.75);
+            \draw[thick] (A4) -- (B4) -- (C4) -- cycle;
+
+            \coordinate (A5) at (3.1,-2.25);
+            \coordinate (B5) at (3.1,-2.75);
+            \coordinate (C5) at (3.6,-2.75);
+            \coordinate (D5) at (3.6,-2.25);
+            \draw[thick] (A5) -- (B5) -- (C5) -- (D5) -- cycle;
+            %
+            \coordinate (B6) at (2.6,-3.25);
+            \coordinate (A6) at (3,-3.5);
+            \coordinate (C6) at (2.6,-3.75);
+            \draw[-] (3,-3.25) -- (3,-3.75);
+            \draw[thick] (A6) -- (B6) -- (C6) -- cycle;
+
+            \coordinate (A7) at (3.1,-3.25);
+            \coordinate (B7) at (3.1,-3.75);
+            \coordinate (C7) at (3.6,-3.75);
+            \coordinate (D7) at (3.6,-3.25);
+            \draw[thick] (A7) -- (B7) -- (C7) -- (D7) -- cycle;
+
+            \draw[-] (3,-4.5) -- (5,-4.5);
+            \draw[-] (3.5,-4.75) -- (4.5,-4.75);
+            \draw[-] (3.5,-5) -- (4.5,-5);
+
+            \node at (1,-2) {Encoder};
+        \end{tikzpicture}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[h!]
+    \begin{minipage}{0.45\textwidth}
+       $FCD=\sum(0,2,3,5...10,12,14,15)$\\
+       $=\bar{A}\bar{B}\bar{C}\bar{D}+\bar{A}\bar{B}C\bar{D}+\bar{A}\bar{B}CD+$\\
+       $+\bar{A}B\bar{C}D+\bar{A}BC\bar{D}+\bar{A}BCD+$\\
+       $+A\bar{B}\bar{C}\bar{D}+A\bar{B}\bar{C}\bar{D}+A\bar{B}\bar{C}D+A\bar{B}C\bar{D}+$\\
+       $+AB\bar{C}\bar{D}+ABC\bar{D}+ABCD$\\
+       $FCC=\Pi(1,4,11,13)$\\
+       $=(A+B+C+\bar{D})(A+\bar{B}+C+D)(\bar{A}+B+\bar{C}+\bar{D})(\bar{A}+\bar{B}+C+\bar{D})$\\
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.5\textwidth}
+        \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+            \hline
+            A & B & C & D & a & b & c & d & e & f & g \\ \hline
+            0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 \\ \hline
+            0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\ \hline
+            0 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 1 & 0 & 1 \\ \hline
+            0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 1 \\ \hline
+            0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ \hline
+            0 & 1 & 0 & 1 & 1 & 0 & 1 & 1 & 0 & 1 & 1 \\ \hline
+            0 & 1 & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 1 & 1 \\ \hline
+            0 & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\ \hline
+            1 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\ \hline
+            1 & 0 & 0 & 1 & 1 & 1 & 1 & 1 & 0 & 1 & 1 \\ \hline
+            1 & 0 & 1 & 0 & 1 & 1 & 1 & 0 & 1 & 1 & 1 \\ \hline
+            1 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 1 & 1 & 1 \\ \hline
+            1 & 1 & 0 & 0 & 1 & 0 & 1 & 1 & 1 & 1 & 0 \\ \hline
+            1 & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 1 & 0 & 1 \\ \hline
+            1 & 1 & 1 & 0 & 1 & 0 & 1 & 1 & 1 & 1 & 1 \\ \hline
+            1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 \\ \hline
+        \end{tabular}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}{0.45\textwidth}
+        \begin{tikzpicture}
+            \draw (0,0) grid (4,-2);
+            \draw[-] (0,0) -- (-1,1);
+            \node at (-0.75, 0.25) {$CD$};
+            \node at (-0.25, 0.75) {$AB$};
+
+            \draw (0,0) grid (4,-4);
+        
+            \draw[thick] (3, -0.5) ellipse (1cm and 0.5cm);
+            \draw[thick] (3.5, -1) ellipse (0.5cm and 1cm);
+            \draw[thick] (1.5, -2) ellipse (0.5cm and 1cm);
+            \draw[thick] (1, -3) ellipse (1cm and 1cm);
+            \draw[thick] (2, -3) ellipse (1cm and 1cm);
+        
+            \draw[thick] (0,-3) arc[start angle=90, end angle=0, x radius=1cm, y radius=1cm];
+            \draw[thick] (0,-1) arc[start angle=-90, end angle=0, x radius=1cm, y radius=1cm];
+            \draw[thick] (3,0) arc[start angle=180, end angle=270, x radius=1cm, y radius=1cm];
+            \draw[thick] (4,-3) arc[start angle=90, end angle=180, x radius=1cm, y radius=1cm];
+
+            \node at (0.5, -0.5) {1};
+            \node at (1.5, -0.5) {0};
+            \node at (2.5, -0.5) {1};
+            \node at (3.5, -0.5) {1};
+            %
+            \node at (0.5, -1.5) {0};
+            \node at (1.5, -1.5) {1};
+            \node at (2.5, -1.5) {0};
+            \node at (3.5, -1.5) {1};
+            %
+            \node at (0.5, -2.5) {1};
+            \node at (1.5, -2.5) {1};
+            \node at (2.5, -2.5) {1};
+            \node at (3.5, -2.5) {0};
+            %
+            \node at (0.5, -3.5) {1};
+            \node at (1.5, -3.5) {1};
+            \node at (2.5, -3.5) {1};
+            \node at (3.5, -3.5) {1};
+        
+            \node at (0.5, 0.5) {00};
+            \node at (1.5, 0.5) {01};
+            \node at (2.5, 0.5) {11};
+            \node at (3.5, 0.5) {10};
+        
+            \node at (-0.5, -0.5) {00};
+            \node at (-0.5, -1.5) {01};
+            \node at (-0.5, -2.5) {11};
+            \node at (-0.5, -3.5) {10};
+        \end{tikzpicture}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.5\textwidth}
+        $a=A\bar{B}\bar{C}+\bar{A}C+BC+A\bar{C}\bar{D}+\bar{B}\bar{D}+\bar{A}BD$
+    \end{minipage}
+\end{figure}
+
+\begin{center}
+    \large{\textbf{Optimizăm analog cu funcția a pentru celelalte segmente.}}
+\end{center}
+
+\end{document}

@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.10)  12 JAN 2025 14:16
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.10)  12 JAN 2025 19:01
  restricted system commands enabled.
-**./Lab3.tex
-(./Lab3.tex
+**./Lab8.tex
+(./Lab8.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
 Lua module: luaotfload 2024-02-14 v3.28 Lua based OpenType font support
@@ -58,15 +58,49 @@ iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \belowcaptionskip=\skip50
 \bibindent=\dimen140
 )
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+) (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count271
+\float@exts=\toks21
+\float@box=\box52
+\@float@everytoks=\toks22
+\@floatcapt=\box53
+)
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip51
 
@@ -76,71 +110,67 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen141
+\@emptytoks=\toks23
+\ex@=\dimen149
 ))
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen142
+\pmbraise@=\dimen150
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count268
+\inf@bad=\count272
 LaTeX Info: Redefining \frac on input line 235.
-\uproot@=\count269
-\leftroot@=\count270
+\uproot@=\count273
+\leftroot@=\count274
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count271
-\DOTSCASE@=\count272
+\classnum@=\count275
+\DOTSCASE@=\count276
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box54
+\strutbox@=\box55
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen143
+\big@size=\dimen151
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count273
+\macc@depth=\count277
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count274
+\c@MaxMatrixCols=\count278
 \dotsspace@=\muskip17
-\c@parentequation=\count275
-\dspbrk@lvl=\count276
-\tag@help=\toks20
-\row@=\count277
-\column@=\count278
-\maxfields@=\count279
-\andhelp@=\toks21
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
-\@envbody=\toks22
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
+\tag@help=\toks24
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
+\andhelp@=\toks25
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks26
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
-)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
@@ -156,20 +186,20 @@ Package graphics Info: Driver file: luatex.def on input line 106.
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
 File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box54
+\ttl@box=\box56
 \beforetitleunit=\skip54
 \aftertitleunit=\skip55
-\ttl@plus=\dimen152
-\ttl@minus=\dimen153
-\ttl@toksa=\toks25
-\titlewidth=\dimen154
-\titlewidthlast=\dimen155
-\titlewidthfirst=\dimen156
+\ttl@plus=\dimen160
+\ttl@minus=\dimen161
+\ttl@toksa=\toks28
+\titlewidth=\dimen162
+\titlewidthlast=\dimen163
+\titlewidthfirst=\dimen164
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
@@ -181,13 +211,13 @@ sty
 y
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
 -common.tex
-\pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen157
-\pgfutil@tempdimb=\dimen158
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen165
+\pgfutil@tempdimb=\dimen166
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
 -latex.def
-\pgfutil@abb=\box55
+\pgfutil@abb=\box57
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
 code.tex
@@ -206,33 +236,33 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks27
-\pgfkeys@temptoks=\toks28
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 libraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks29
+\pgfkeys@tmptoks=\toks32
 ))
-\pgf@x=\dimen159
-\pgf@y=\dimen160
-\pgf@xa=\dimen161
-\pgf@ya=\dimen162
-\pgf@xb=\dimen163
-\pgf@yb=\dimen164
-\pgf@xc=\dimen165
-\pgf@yc=\dimen166
-\pgf@xd=\dimen167
-\pgf@yd=\dimen168
+\pgf@x=\dimen167
+\pgf@y=\dimen168
+\pgf@xa=\dimen169
+\pgf@ya=\dimen170
+\pgf@xb=\dimen171
+\pgf@yb=\dimen172
+\pgf@xc=\dimen173
+\pgf@yc=\dimen174
+\pgf@xd=\dimen175
+\pgf@yd=\dimen176
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count280
-\c@pgf@countb=\count281
-\c@pgf@countc=\count282
-\c@pgf@countd=\count283
-\t@pgf@toka=\toks30
-\t@pgf@tokb=\toks31
-\t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count284
+\c@pgf@counta=\count284
+\c@pgf@countb=\count285
+\c@pgf@countc=\count286
+\c@pgf@countd=\count287
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count288
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
 fg
@@ -251,8 +281,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count285
-\pgfsyssoftpath@bigbuffer@items=\count286
+\pgfsyssoftpath@smallbuffer@items=\count289
+\pgfsyssoftpath@bigbuffer@items=\count290
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 sprotocol.code.tex
@@ -286,12 +316,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 code.tex)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
 r.code.tex
-\pgfmath@dimen=\dimen169
-\pgfmath@count=\count287
-\pgfmath@box=\box56
-\pgfmath@toks=\toks33
-\pgfmath@stack@operand=\toks34
-\pgfmath@stack@operation=\toks35
+\pgfmath@dimen=\dimen177
+\pgfmath@count=\count291
+\pgfmath@box=\box58
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.code.tex)
@@ -315,59 +345,59 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count288
+\c@pgfmathroundto@lastzeros=\count292
 ))
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
 tex)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen170
-\pgf@picmaxx=\dimen171
-\pgf@picminy=\dimen172
-\pgf@picmaxy=\dimen173
-\pgf@pathminx=\dimen174
-\pgf@pathmaxx=\dimen175
-\pgf@pathminy=\dimen176
-\pgf@pathmaxy=\dimen177
-\pgf@xx=\dimen178
-\pgf@xy=\dimen179
-\pgf@yx=\dimen180
-\pgf@yy=\dimen181
-\pgf@zx=\dimen182
-\pgf@zy=\dimen183
+\pgf@picminx=\dimen178
+\pgf@picmaxx=\dimen179
+\pgf@picminy=\dimen180
+\pgf@picmaxy=\dimen181
+\pgf@pathminx=\dimen182
+\pgf@pathmaxx=\dimen183
+\pgf@pathminy=\dimen184
+\pgf@pathmaxy=\dimen185
+\pgf@xx=\dimen186
+\pgf@xy=\dimen187
+\pgf@yx=\dimen188
+\pgf@yy=\dimen189
+\pgf@zx=\dimen190
+\pgf@zy=\dimen191
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen184
-\pgf@path@lasty=\dimen185
+\pgf@path@lastx=\dimen192
+\pgf@path@lasty=\dimen193
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen186
-\pgf@shorten@start@additional=\dimen187
+\pgf@shorten@end@additional=\dimen194
+\pgf@shorten@start@additional=\dimen195
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count289
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count293
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen188
+\pgflinewidth=\dimen196
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen189
-\pgf@pt@y=\dimen190
-\pgf@pt@temp=\dimen191
+\pgf@pt@x=\dimen197
+\pgf@pt@y=\dimen198
+\pgf@pt@temp=\dimen199
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 equick.code.tex
@@ -384,14 +414,14 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen192
+\pgfarrowsep=\dimen256
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen193
-\pgf@sys@shading@range@num=\count290
-\pgf@shadingcount=\count291
+\pgf@max=\dimen257
+\pgf@sys@shading@range@num=\count294
+\pgf@shadingcount=\count295
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eimage.code.tex
@@ -400,7 +430,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box60
+\pgfexternal@startupbox=\box62
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 elayers.code.tex
@@ -421,7 +451,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box61
+\pgfnodeparttextbox=\box63
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 plot.code.tex
@@ -430,8 +460,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen194
-\pgf@nodesepend=\dimen195
+\pgf@nodesepstart=\dimen258
+\pgf@nodesepend=\dimen259
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
 mp-version-1-18.sty
@@ -449,10 +479,10 @@ ty
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffor.
 code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen196
-\pgffor@skip=\dimen197
-\pgffor@stack=\toks36
-\pgffor@toks=\toks37
+\pgffor@iter=\dimen260
+\pgffor@skip=\dimen261
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
 ))
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
 z/tikz.code.tex
@@ -461,34 +491,34 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count292
-\pgfplotmarksize=\dimen198
+\pgf@plot@mark@count=\count296
+\pgfplotmarksize=\dimen262
 )
-\tikz@lastx=\dimen199
-\tikz@lasty=\dimen256
-\tikz@lastxsaved=\dimen257
-\tikz@lastysaved=\dimen258
-\tikz@lastmovetox=\dimen259
-\tikz@lastmovetoy=\dimen260
-\tikzleveldistance=\dimen261
-\tikzsiblingdistance=\dimen262
-\tikz@figbox=\box62
-\tikz@figbox@bg=\box63
-\tikz@tempbox=\box64
-\tikz@tempbox@bg=\box65
-\tikztreelevel=\count293
-\tikznumberofchildren=\count294
-\tikznumberofcurrentchild=\count295
-\tikz@fig@count=\count296
+\tikz@lastx=\dimen263
+\tikz@lasty=\dimen264
+\tikz@lastxsaved=\dimen265
+\tikz@lastysaved=\dimen266
+\tikz@lastmovetox=\dimen267
+\tikz@lastmovetoy=\dimen268
+\tikzleveldistance=\dimen269
+\tikzsiblingdistance=\dimen270
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count297
+\tikznumberofchildren=\count298
+\tikznumberofcurrentchild=\count299
+\tikz@fig@count=\count300
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count297
-\pgfmatrixcurrentcolumn=\count298
-\pgf@matrix@numberofcolumns=\count299
+\pgfmatrixcurrentrow=\count301
+\pgfmatrixcurrentcolumn=\count302
+\pgf@matrix@numberofcolumns=\count303
 )
-\tikz@expandcount=\count300
+\tikz@expandcount=\count304
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
 z/libraries/tikzlibrarytopaths.code.tex
@@ -496,8 +526,8 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks38
-\verbatim@line=\toks39
+\every@verbatim=\toks41
+\verbatim@line=\toks42
 \verbatim@in@stream=\read3
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/environ/environ.sty
@@ -509,285 +539,114 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count301
+\etb@tempcnta=\count305
 )
-\tcb@titlebox=\box66
-\tcb@upperbox=\box67
-\tcb@lowerbox=\box68
-\tcb@phantombox=\box69
-\c@tcbbreakpart=\count302
-\c@tcblayer=\count303
-\c@tcolorbox@number=\count304
-\l__tcobox_tmpa_box=\box70
-\l__tcobox_tmpa_dim=\dimen263
-\tcb@temp=\box71
-\tcb@temp=\box72
+\tcb@titlebox=\box68
+\tcb@upperbox=\box69
+\tcb@lowerbox=\box70
+\tcb@phantombox=\box71
+\c@tcbbreakpart=\count306
+\c@tcblayer=\count307
+\c@tcolorbox@number=\count308
+\l__tcobox_tmpa_box=\box72
+\l__tcobox_tmpa_dim=\dimen271
 \tcb@temp=\box73
 \tcb@temp=\box74
-) (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/titling/titling.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip56
-\thanksmargin=\skip57
-\droptitle=\skip58
+\tcb@temp=\box75
+\tcb@temp=\box76
+) (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen272
+\enit@toks=\toks43
+\enit@inbox=\box77
+\enit@count@id=\count309
+\enitdp@description=\count310
 )
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/circuitikz/circuitikz.s
-ty
-Package: circuitikz 2024/08/03{} The CircuiTikz circuit drawing package version
- 1.7.0
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/tikz-timing/tikz-timing
+.sty
+Package: tikz-timing 2017/12/20 v0.7f Digital Timing Diagrams using TikZ
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
 z/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
-aryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen264
-\pgfarrowlength=\dimen265
-\pgfarrowwidth=\dimen266
-\pgfarrowlinewidth=\dimen267
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box78
+\pgf@layerboxsaved@background=\box79
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
-z/libraries/tikzlibrarybending.code.tex
-File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
-bending.code.tex
-File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
-nonlineartransformations.code.tex
-File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgftransformnonlinearflatness=\dimen268
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
-arycurvilinear.code.tex
-File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@curvilinear@time@a=\dimen269
-\pgf@curvilinear@length@a=\dimen270
-\pgf@curvilinear@length@b=\dimen271
-\pgf@curvilinear@length@c=\dimen272
-\pgf@curvilinear@length@d=\dimen273
-)
-\pgf@arrows@the@rigidity=\dimen274
-))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
-z/libraries/tikzlibraryfpu.code.tex
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
-aryfpu.code.tex))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcirc.de
-fines.tex
-\pgf@circ@count@a=\count305
-\pgf@circ@count@b=\count306
-\pgf@circ@count@c=\count307
-\pgf@circ@res@up=\dimen275
-\pgf@circ@res@down=\dimen276
-\pgf@circ@res@zero=\dimen277
-\pgf@circ@res@left=\dimen278
-\pgf@circ@res@right=\dimen279
-\pgf@circ@res@other=\dimen280
-\pgf@circ@res@step=\dimen281
-\pgf@circ@res@temp=\dimen282
-\pgf@circ@Rlen=\dimen283
-\pgf@circ@scaled@Rlen=\dimen284
-\pgfstartlinewidth=\dimen285
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircuti
-ls.tex
-\ctikz@scratchbox=\box75
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircpat
-h.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircsha
-pes.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircmon
-opoles.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircbip
-oles.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcirctri
-poles.tex
-\pgf@circ@res@count=\count308
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircqua
-dpoles.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircmul
-tipoles.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcirclab
-el.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircvol
-tage.tex
-\pgfcirc@labelshift=\dimen286
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcirccur
-rent.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircflo
-w.tex))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip59
-\enit@outerparindent=\dimen287
-\enit@toks=\toks40
-\enit@inbox=\box76
-\enit@count@id=\count309
-\enitdp@description=\count310
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen288
-\WF@size=\dimen289
-\c@WF@wrappedlines=\count311
-\WF@box=\box77
-\WF@everypar=\toks41
-Package: wrapfig 2003/01/31  v 3.6
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count312
-\float@exts=\toks42
-\float@box=\box78
-\@float@everytoks=\toks43
-\@floatcapt=\box79
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.sty
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.rev
-ision.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.cod
-e.tex
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscore
-.code.tex
-Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
-\pgfplots@luabackend@table=\catcodetable14
-\t@pgfplots@toka=\toks44
-\t@pgfplots@tokb=\toks45
-\t@pgfplots@tokc=\toks46
-\pgfplots@tmpa=\dimen290
-\c@pgfplots@coordindex=\count313
-\c@pgfplots@scanlineindex=\count314
-
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfplots
-sysgeneric.code.tex))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgfplot
-slibrary.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompat
-ib/pgfplotsoldpgfsupp_loader.code.tex
-Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks47
-\t@pgf@tokb=\toks48
-\t@pgf@tokc=\toks49
-
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompat
-ib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/luamath
-/pgflibraryluamath.code.tex)
-Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.1
-0 is up-to-date
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
-sutil.code.tex
-Package pgfplots info on input line 82: Found new luatex: initializing lua comm
-ands instead of write18 (shell-escape)
-
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
-e/pgfplotsliststructure.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
-e/pgfplotsliststructureext.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
-e/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count315
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
-e/pgfplotsmatrix.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtable/pgf
-plotstableshared.code.tex
-\c@pgfplotstable@counta=\count316
-\t@pgfplotstable@a=\toks50
-)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
-e/pgfplotsdeque.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
-sbinary.code.tex
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
-sbinary.data.code.tex))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
-sutil.verb.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgflibr
-arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count317
-
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgflibra
-rypgfplots.surfshading.pgfsys-luatex.def)))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
-scolormap.code.tex
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
-scolor.code.tex))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsstac
-kedplots.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsplot
-handlers.code.tex
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
-plothandler.code.tex
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
-plotimage.code.tex)))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.sca
-ling.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscoor
-dprocessing.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.err
-orbars.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.mar
-kers.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotstick
-s.code.tex)
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.pat
-hs.code.tex)
+z/libraries/tikzlibrarydecorations.pathmorphing.code.tex
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
 z/libraries/tikzlibrarydecorations.code.tex
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 decorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen291
-\pgfdecoratedremainingdistance=\dimen292
-\pgfdecoratedinputsegmentcompleteddistance=\dimen293
-\pgfdecoratedinputsegmentremainingdistance=\dimen294
-\pgf@decorate@distancetomove=\dimen295
-\pgf@decorate@repeatstate=\count318
-\pgfdecorationsegmentamplitude=\dimen296
-\pgfdecorationsegmentlength=\dimen297
+\pgfdecoratedcompleteddistance=\dimen273
+\pgfdecoratedremainingdistance=\dimen274
+\pgfdecoratedinputsegmentcompleteddistance=\dimen275
+\pgfdecoratedinputsegmentremainingdistance=\dimen276
+\pgf@decorate@distancetomove=\dimen277
+\pgf@decorate@repeatstate=\count311
+\pgfdecorationsegmentamplitude=\dimen278
+\pgfdecorationsegmentlength=\dimen279
 )
 \tikz@lib@dec@box=\box80
 )
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
-z/libraries/tikzlibrarydecorations.pathmorphing.code.tex
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
 ions/pgflibrarydecorations.pathmorphing.code.tex))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
-z/libraries/tikzlibrarydecorations.pathreplacing.code.tex
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
-ions/pgflibrarydecorations.pathreplacing.code.tex))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/tikzlib
-rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count319
-\pgfplots@xmin@reg=\dimen298
-\pgfplots@xmax@reg=\dimen299
-\pgfplots@ymin@reg=\dimen300
-\pgfplots@ymax@reg=\dimen301
-\pgfplots@zmin@reg=\dimen302
-\pgfplots@zmax@reg=\dimen303
+\tikztiming@numint=\count312
+\tikztiming@numfrac=\count313
+\tikztiming@xunit=\skip57
+\tikztiming@yunit=\skip58
+\tikztiming@debug=\count314
+\c@tikztiming@nrows=\count315
+\c@tikztimingrows=\count316
+\c@tikztimingtrans=\count317
+\c@tikztimingtranspos=\count318
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
-z/libraries/tikzlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+z/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
-aryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+arypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\tikz@lib@auto@number=\count319
+\tikz@qnode@count=\count320
+)
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/graphdrawing/tex/
+tikzlibrarygraphdrawing.code.tex
+File: tikzlibrarygraphdrawing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/graphdrawing/tex/
+pgflibrarygraphdrawing.code.tex
+File: pgflibrarygraphdrawing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@gd@parameter@stack@height=\count321
+\pgf@gd@node@box=\box81
+\pgf@gd@edge@box=\box82
+\pgf@gd@prekind@box=\box83
+\pgf@gd@postkind@box=\box84
+))
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.st
+y
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
-)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
@@ -814,7 +673,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks51
+\pdftexcmds@toks=\toks44
 ))
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
@@ -832,22 +691,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count320
+\c@section@level=\count322
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen304
-\Hy@linkcounter=\count321
-\Hy@pagecounter=\count322
+\@linkdim=\dimen280
+\Hy@linkcounter=\count323
+\Hy@pagecounter=\count324
  (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 ) (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count323
+\Hy@SavedSpaceFactor=\count325
  (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 )
@@ -858,14 +717,14 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count324
+\c@Hy@tempcnt=\count326
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen305
+\XeTeXLinkMargin=\dimen281
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -875,9 +734,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count325
-\Field@Width=\dimen306
-\Fld@charsize=\dimen307
+\Fld@menulength=\count327
+\Field@Width=\dimen282
+\Fld@charsize=\dimen283
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -890,9 +749,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count326
-\c@Item=\count327
-\c@Hfootnote=\count328
+\Hy@abspage=\count328
+\c@Item=\count329
+\c@Hfootnote=\count330
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
@@ -903,8 +762,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count329
-\c@bookmark@seq@number=\count330
+\Fld@listcount=\count331
+\c@bookmark@seq@number=\count332
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
@@ -917,52 +776,87 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip60
+\Hy@SectionHShift=\skip59
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
 tex.def
 File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count331
+\l__color_backend_stack_int=\count333
 Inserting `l3color' in `luaotfload.parse_color'.
-\l__pdf_internal_box=\box81
-) (./Lab3.aux)
-\openout1 = Lab3.aux
+\l__pdf_internal_box=\box85
+) (./Lab8.aux)
+\openout1 = Lab8.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count332
-\scratchdimen=\dimen308
-\scratchbox=\box82
-\nofMPsegments=\count333
-\nofMParguments=\count334
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count335
-\MPscratchDim=\dimen309
-\MPnumerator=\count336
-\makeMPintoPDFobject=\count337
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count334
+\scratchdimen=\dimen284
+\scratchbox=\box86
+\nofMPsegments=\count335
+\nofMParguments=\count336
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count337
+\MPscratchDim=\dimen285
+\MPnumerator=\count338
+\makeMPintoPDFobject=\count339
+\everyMPtoPDFconversion=\toks46
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
@@ -974,219 +868,137 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
-
-Package hyperref Info: Link coloring OFF on input line 31.
-(./Lab3.out) (./Lab3.out)
+Package hyperref Info: Link coloring OFF on input line 27.
+ (./Lab8.out) (./Lab8.out)
 \@outlinefile=\write4
 
-\openout4 = Lab3.out
+\openout4 = Lab8.out
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
 
-Overfull \hbox (3.04828pt too wide) in paragraph at lines 72--75
-\TU/lmr/m/n/12 con-den-sator elec-tric se nu-mește ca-pac-i-tate elec-trică 
-și în sis-temul in-ter-național
+
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+
+
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<Schema1.png, id=6, 477.28313pt x 283.81032pt>
+File: Schema1.png Graphic file (type png)
+<use Schema1.png>
+Package luatex.def Info: Schema1.png  used on input line 54.
+(luatex.def)             Requested size: 238.64098pt x 141.9048pt.
+
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 37--56
+[]$[]$  $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
  []
 
 
 
 [1
 
-{C:/Users/matei/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+{C:/Users/matei/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./Schema1.png>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
  []
 
+<Schema2.png, id=21, 528.47438pt x 660.21657pt>
+File: Schema2.png Graphic file (type png)
+<use Schema2.png>
+Package luatex.def Info: Schema2.png  used on input line 120.
+(luatex.def)             Requested size: 264.23654pt x 330.10747pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Overfull \hbox (37.7526pt too wide) in paragraph at lines 120--121
+[][] 
+ []
 
+<Schema3.png, id=22, 502.12593pt x 331.99031pt>
+File: Schema3.png Graphic file (type png)
+<use Schema3.png>
+Package luatex.def Info: Schema3.png  used on input line 131.
+(luatex.def)             Requested size: 251.06235pt x 165.99474pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+[]\TU/lmr/m/n/12 SR-NAND
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-
+Overfull \hbox (47.22818pt too wide) in paragraph at lines 130--132
+[] 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Ustack' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endgroup' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@over' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
+Overfull \hbox (3.35039pt too wide) in paragraph at lines 135--143
+[][] 
  []
 
 
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+[2<./Schema2.png><./Schema3.png>]
+<Schema4.png, id=30, 429.10312pt x 298.86656pt>
+File: Schema4.png Graphic file (type png)
+<use Schema4.png>
+Package luatex.def Info: Schema4.png  used on input line 150.
+(luatex.def)             Requested size: 214.55103pt x 149.4329pt.
 
+Overfull \hbox (10.71686pt too wide) in paragraph at lines 150--151
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
+Overfull \hbox (3.35039pt too wide) in paragraph at lines 154--162
+[][] 
  []
 
+<Schema5.png, id=31, 477.28313pt x 300.3722pt>
+File: Schema5.png Graphic file (type png)
+<use Schema5.png>
+Package luatex.def Info: Schema5.png  used on input line 167.
+(luatex.def)             Requested size: 238.64098pt x 150.18571pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 147.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\epsilon' on input line 147.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 147.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 147.
-
-<dielectric.png, id=92, 312.16624pt x 288.07625pt>
-File: dielectric.png Graphic file (type png)
-<use dielectric.png>
-Package luatex.def Info: dielectric.png  used on input line 151.
-(luatex.def)             Requested size: 148.2019pt x 136.7673pt.
-
-Overfull \hbox (31.20071pt too wide) in paragraph at lines 151--152
- [][] 
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 156--158
-\TU/lmr/m/n/12 la-tor iar apoi în ace-lași condiții ex-per-i-men-tale
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
+Overfull \hbox (34.80681pt too wide) in paragraph at lines 167--168
+[][] 
  []
 
 
 
-[3<./dielectric.png>]
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 249--257
-
- []
-
-
-Overfull \hbox (30.01628pt too wide) in paragraph at lines 295--296
-[]\TU/lmr/m/n/12 Am uti-lizat site-ul []Graph-Pad[] pen-tru a obține dreapta de
- re-gre-sie liniară.Ecuația
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--312
-
- []
-
-
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
-
- []
-
-
-
-[6]
-
-[7] (./Lab3.aux)
+[3<./Schema4.png><./Schema5.png>] (./Lab8.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
-Package rerunfilecheck Info: File `Lab3.out' has not changed.
-(rerunfilecheck)             Checksum: 83A5D8C9E3A0B873E2FDDCD832D821E2;2814.
+Package rerunfilecheck Info: File `Lab8.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51369 strings out of 475630
- 100000,2373549 words of node,token memory allocated
- 619 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 29 attribute, 60 glue_spec
-, 29 attribute_list, 2 write nodes
-   avail lists: 1:1,2:2472,3:1405,4:58,5:254,6:34,7:4365,8:63,9:850,10:14,11:262
-
- 73329 multiletter control sequences out of 65536+600000
- 60 fonts using 4284583 bytes
- 98i,19n,102p,722b,2289s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/users/matei/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman8-
+ 27131 strings out of 475630
+ 125016,1144653 words of node,token memory allocated
+ 520 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 57 glue_spec,
+ 8 attribute_list, 2 write nodes
+   avail lists: 1:9,2:2386,3:1616,4:51,5:117,6:39,7:3562,8:38,9:1521,10:4,11:42
+ 49376 multiletter control sequences out of 65536+600000
+ 56 fonts using 3614911 bytes
+ 98i,15n,102p,441b,1104s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/matei/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans12-
 regular.otf><c:/users/matei/appdata/local/programs/miktex/fonts/opentype/public/
-lm/lmroman12-italic.otf><c:/users/matei/appdata/local/programs/miktex/fonts/open
-type/public/lm/lmroman12-regular.otf><c:/users/matei/appdata/local/programs/mikt
-ex/fonts/opentype/public/lm/lmroman12-bold.otf><C:/Users/matei/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/matei/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matei/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
-s/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-<C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr6.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matei/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matei/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/matei/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Lab3.pdf (7 pages, 189931 bytes).
+lm/lmroman12-regular.otf><c:/users/matei/appdata/local/programs/miktex/fonts/ope
+ntype/public/lm/lmroman12-bold.otf><C:/Users/matei/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/matei/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matei/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on Lab8.pdf (3 pages, 118997 bytes).
 
-PDF statistics: 205 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 131072)
- 136 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 68 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

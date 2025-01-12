@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.10)  12 JAN 2025 01:43
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.10)  12 JAN 2025 23:15
  restricted system commands enabled.
-**./Lab6.tex
-(./Lab6.tex
+**./Lab9.tex
+(./Lab9.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
 Lua module: luaotfload 2024-02-14 v3.28 Lua based OpenType font support
@@ -563,6 +563,49 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count309
 \enitdp@description=\count310
 )
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/tikz-timing/tikz-timing
+.sty
+Package: tikz-timing 2017/12/20 v0.7f Digital Timing Diagrams using TikZ
+
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box78
+\pgf@layerboxsaved@background=\box79
+)
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.code.tex
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen273
+\pgfdecoratedremainingdistance=\dimen274
+\pgfdecoratedinputsegmentcompleteddistance=\dimen275
+\pgfdecoratedinputsegmentremainingdistance=\dimen276
+\pgf@decorate@distancetomove=\dimen277
+\pgf@decorate@repeatstate=\count311
+\pgfdecorationsegmentamplitude=\dimen278
+\pgfdecorationsegmentlength=\dimen279
+)
+\tikz@lib@dec@box=\box80
+)
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.pathmorphing.code.tex))
+\tikztiming@numint=\count312
+\tikztiming@numfrac=\count313
+\tikztiming@xunit=\skip57
+\tikztiming@yunit=\skip58
+\tikztiming@debug=\count314
+\c@tikztiming@nrows=\count315
+\c@tikztimingrows=\count316
+\c@tikztimingtrans=\count317
+\c@tikztimingtranspos=\count318
+)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
 z/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -574,8 +617,8 @@ File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
 z/libraries/graphs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\tikz@lib@auto@number=\count311
-\tikz@qnode@count=\count312
+\tikz@lib@auto@number=\count319
+\tikz@qnode@count=\count320
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/graphdrawing/tex/
 tikzlibrarygraphdrawing.code.tex
@@ -584,11 +627,11 @@ File: tikzlibrarygraphdrawing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/graphdrawing/tex/
 pgflibrarygraphdrawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@gd@parameter@stack@height=\count313
-\pgf@gd@node@box=\box78
-\pgf@gd@edge@box=\box79
-\pgf@gd@prekind@box=\box80
-\pgf@gd@postkind@box=\box81
+\pgf@gd@parameter@stack@height=\count321
+\pgf@gd@node@box=\box81
+\pgf@gd@edge@box=\box82
+\pgf@gd@prekind@box=\box83
+\pgf@gd@postkind@box=\box84
 ))
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -648,22 +691,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count314
+\c@section@level=\count322
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen273
-\Hy@linkcounter=\count315
-\Hy@pagecounter=\count316
+\@linkdim=\dimen280
+\Hy@linkcounter=\count323
+\Hy@pagecounter=\count324
  (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 ) (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count317
+\Hy@SavedSpaceFactor=\count325
  (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 )
@@ -674,14 +717,14 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count318
+\c@Hy@tempcnt=\count326
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen274
+\XeTeXLinkMargin=\dimen281
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -691,9 +734,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count319
-\Field@Width=\dimen275
-\Fld@charsize=\dimen276
+\Fld@menulength=\count327
+\Field@Width=\dimen282
+\Fld@charsize=\dimen283
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -706,9 +749,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count320
-\c@Item=\count321
-\c@Hfootnote=\count322
+\Hy@abspage=\count328
+\c@Item=\count329
+\c@Hfootnote=\count330
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
@@ -719,8 +762,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count323
-\c@bookmark@seq@number=\count324
+\Fld@listcount=\count331
+\c@bookmark@seq@number=\count332
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
@@ -733,37 +776,37 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip59
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
 tex.def
 File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count325
+\l__color_backend_stack_int=\count333
 Inserting `l3color' in `luaotfload.parse_color'.
-\l__pdf_internal_box=\box82
-) (./Lab6.aux)
-\openout1 = Lab6.aux
+\l__pdf_internal_box=\box85
+) (./Lab9.aux)
+\openout1 = Lab9.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -803,16 +846,16 @@ LaTeX Font Info:    ... okay on input line 26.
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen277
-\scratchbox=\box83
-\nofMPsegments=\count327
-\nofMParguments=\count328
+\scratchcounter=\count334
+\scratchdimen=\dimen284
+\scratchbox=\box86
+\nofMPsegments=\count335
+\nofMParguments=\count336
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen278
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
+\MPscratchCnt=\count337
+\MPscratchDim=\dimen285
+\MPnumerator=\count338
+\makeMPintoPDFobject=\count339
 \everyMPtoPDFconversion=\toks46
 )
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
@@ -825,50 +868,30 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 26.
- (./Lab6.out) (./Lab6.out)
+Package hyperref Info: Link coloring OFF on input line 27.
+ (./Lab9.out) (./Lab9.out)
 \@outlinefile=\write4
 
-\openout4 = Lab6.out
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+\openout4 = Lab9.out
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
 
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
 
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 46--60
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 
-Overfull \hbox (2.608pt too wide) in paragraph at lines 80--132
-[]$[]$  $[]$ 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
-
- []
-
-<example-image.pdf, id=8, 321.2pt x 240.9pt>
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package luatex.def Info: example-image.pdf  used on input line 147.
-(luatex.def)             Requested size: 256.96034pt x 192.72025pt.
-
-Overfull \hbox (30.4764pt too wide) in paragraph at lines 147--148
-[][] 
  []
 
 
@@ -876,59 +899,51 @@ Overfull \hbox (30.4764pt too wide) in paragraph at lines 147--148
 [1
 
 {C:/Users/matei/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 153--162
 
- []
+[2]
+<Schema1.png, id=23, 704.6325pt x 322.95656pt>
+File: Schema1.png Graphic file (type png)
+<use Schema1.png>
+Package luatex.def Info: Schema1.png  used on input line 252.
+(luatex.def)             Requested size: 422.78278pt x 193.77542pt.
 
-
-Overfull \hbox (19.25716pt too wide) in paragraph at lines 165--185
+Overfull \hbox (196.29883pt too wide) in paragraph at lines 252--253
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
- []
-
-
-Overfull \hbox (2.60799pt too wide) in paragraph at lines 189--245
-[]$[]$  $[]$ 
- []
-
-
-
-[2<C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image.pdf>
-] (./Lab6.aux)
+[3<./Schema1.png>] (./Lab9.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
-Package rerunfilecheck Info: File `Lab6.out' has not changed.
+Package rerunfilecheck Info: File `Lab9.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25452 strings out of 475630
+ 27159 strings out of 475630
  125016,1144653 words of node,token memory allocated
- 510 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 55 glue_spec,
- 8 attribute_list, 2 write nodes
-   avail lists: 1:9,2:2292,3:1348,4:53,5:373,6:46,7:4810,8:31,9:1468,10:6,11:78
- 47754 multiletter control sequences out of 65536+600000
- 56 fonts using 3614911 bytes
- 98i,10n,102p,441b,719s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/users/matei/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12
--regular.otf><c:/users/matei/appdata/local/programs/miktex/fonts/opentype/public
-/lm/lmroman12-bold.otf><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmex10.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matei/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/matei/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matei/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matei/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Lab6.pdf (2 pages, 93351 bytes).
+ 533 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 10 attribute, 58 glue_spec
+, 10 attribute_list, 2 write nodes
+   avail lists: 1:8,2:3348,3:1874,4:27,5:117,6:33,7:5854,8:28,9:2139,10:4,11:39
+ 49415 multiletter control sequences out of 65536+600000
+ 60 fonts using 4141663 bytes
+ 98i,13n,102p,441b,912s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/matei/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans12-
+regular.otf><c:/users/matei/appdata/local/programs/miktex/fonts/opentype/public/
+lm/lmroman12-regular.otf><c:/users/matei/appdata/local/programs/miktex/fonts/ope
+ntype/public/lm/lmroman12-bold.otf><C:/Users/matei/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/matei/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matei/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/matei/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matei
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Lab9.pdf (3 pages, 93001 bytes).
 
-PDF statistics: 68 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 131072)
- 21 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 65 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
