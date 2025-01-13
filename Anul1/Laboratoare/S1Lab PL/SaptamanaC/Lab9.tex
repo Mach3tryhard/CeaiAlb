@@ -107,7 +107,6 @@ $\bar{Q}$ & HHHHHHLLLLLLHHHLLLLLLLLLLLLLLLLLLLLL \\
 \end{tikztimingtable}\\
 
 \begin{tikzpicture}[overlay, shift={(0, 0)}]
-    \node[below] at (11, 1) {t};
     \node[below] at (0.25, 5.25) {\#};
     \node[below] at (1.00, 5.25) {0};
     \node[below] at (1.916, 5.25) {1};
@@ -177,7 +176,6 @@ $\bar{Q}$ & HHHHHHLLLLLLHHHLLLLLLLLLLLLLLLLLLLLL \\
 $\bar{Q}$ & HHHHHHLLLLLLHHHLLLLLLLLLLLLLLLLLLLLL \\
 \end{tikztimingtable}\\
 \begin{tikzpicture}[overlay, shift={(0.65, -0.5)}]
-    \node[below] at (11, 1) {t};
     \node[below] at (0.25, 5.25) {\#};
     \node[below] at (1.00, 5.25) {1};
     \node[below] at (1.916, 5.25) {5};
@@ -230,7 +228,6 @@ $\bar{Q}$ & HHHHHHLLLLLLHHHLLLLLLLLLLLLLLLLLLLLL \\
 $\bar{Q}$ & HHHHHHHHHLLLLLLLLLLLLHHHHHHHHHHHHLLL \\
 \end{tikztimingtable}\\
 \begin{tikzpicture}[overlay, shift={(0.65, -0.5)}]
-    \node[below] at (11, 1) {t};
     \node[below] at (0.25, 5.25) {\#};
     \node[below] at (1.00, 5.25) {1};
     \node[below] at (1.916, 5.25) {2};
@@ -248,12 +245,45 @@ $\bar{Q}$ & HHHHHHHHHLLLLLLLLLLLLHHHHHHHHHHHHLLL \\
     \node[rotate=90, anchor=north] at (-1, 2.5) {Semnale};
 \end{tikzpicture}
 
-\begin{center}
-    \large{\textbf{3-bit Up down counter}}
-\end{center}
+\[
+\textbf{Exercițiul 4:}\quad
+\begin{array}{ll}
+\text{BBB} & 0-2 \\
+\text{siner} & +-+ \\
+D_0 = \bar{Q}_2 & J_1 = \bar{Q}_1 \\
+K_1 = Q_2 & T_2 = Q_1
+\end{array}
+\]
 
 \begin{minipage}{0.5\textwidth}
     \includegraphics[scale=0.6]{Schema1.png}
 \end{minipage}
 
+\begin{tikztimingtable}
+    CLK       & LLLHHHLLLHHHLLLHHHLLLHHHLLLHHHLLLHHHLLLHHH \\
+    $Q_2$     & HHHLLLLLLHHHHHHHHHHHHLLLLLLHHHHHHHHHHHHLLL \\
+    $Q_1$     & HHHHHHHHHHHHLLLLLLHHHHHHHHHHHHLLLLLLHHHHHH \\
+    $Q_0$     & HHHLLLLLLHHHHHHLLLLLLLLLLLLHHHHHHLLLLLLLLL \\
+\end{tikztimingtable}\\
+\begin{tikzpicture}[overlay, shift={(0.65, -0.5)}]
+    \node[rotate=90, anchor=north] at (-1, 2.5) {Semnale};
+\end{tikzpicture}
+\vspace{1cm}
+\center{
+    \begin{tikzpicture}
+        \node[circle, draw] (A) at (0,0.25) {010};
+        \node[circle, draw] (B) at (2,-1) {111};
+        \node[circle, draw] (C) at (2,-3) {101};
+        \node[circle, draw] (D) at (0,-4.25) {100};
+        \node[circle, draw] (E) at (-2,-3) {110};
+        \node[circle, draw] (F) at (-2,-1) {010};
+        % node[midway, left] {}
+        \draw[->] (A) -- (B);
+        \draw[->] (B) -- (C);
+        \draw[->] (C) -- (D);
+        \draw[->] (D) -- (E);
+        \draw[->] (E) -- (F);
+        \draw[->] (F) -- (A);
+    \end{tikzpicture}    
+}
 \end{document}
