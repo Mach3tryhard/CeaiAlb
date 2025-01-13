@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.10)  10 JAN 2025 23:37
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2025.1.10)  13 JAN 2025 23:08
  restricted system commands enabled.
 **./Lab1.tex
 (./Lab1.tex
@@ -868,7 +868,7 @@ Here is how much of LuaTeX's memory you used:
  510 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 55 glue_spec,
  8 attribute_list, 2 write nodes
-   avail lists: 1:8,2:1694,3:1594,4:105,5:111,6:64,7:2831,8:7,9:817,10:7,11:108
+   avail lists: 1:9,2:1694,3:1594,4:105,5:114,6:64,7:2831,8:7,9:817,10:7,11:108
  47612 multiletter control sequences out of 65536+600000
  62 fonts using 3987031 bytes
  98i,10n,102p,441b,784s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -879,7 +879,7 @@ Here is how much of LuaTeX's memory you used:
 ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matei/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matei/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Lab1.pdf (1 page, 44127 bytes).
+Output written on Lab1.pdf (1 page, 44133 bytes).
 
 PDF statistics: 59 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 131072)
