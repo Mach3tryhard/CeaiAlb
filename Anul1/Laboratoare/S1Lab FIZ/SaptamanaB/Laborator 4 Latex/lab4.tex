@@ -270,42 +270,56 @@ $ \implies a^{3} {(m^{2} - cos\theta m +1 )}^{\frac{3}{2}} $
     \begin{cases}
         F_{x} = 0 \\ 
         F_{y} =  0\\ 
-        F_{z} = \frac{ kQq }{ 4\pi a^{2} }\int_{0}^{\pi} \frac{ (m - cos\theta) sin\theta d \theta }{ {(1+m^{2} -2m cos\theta)}^{\frac{3}{2}} } d \theta\\
+        F_{z} = \frac{ kQq }{ 2 a^{2} }\int_{0}^{\pi} \frac{ (m - cos\theta) sin\theta d \theta }{ {(1+m^{2} -2m cos\theta)}^{\frac{3}{2}} } d \theta\\
 
     \end{cases}
 \end{equation}
 
 \begin{equation}
-    \implies F_{z} = \frac{ kQq }{ 4\pi a^{2} } \int_{-1}^{1} \frac{ (m - x) dx }{ {(1+m^{2} -2m x)}^{\frac{3}{2}} }\\
+    \implies F_{z} = \frac{ kQq }{ 2 a^{2} } \int_{-1}^{1} \frac{ (m - x) dx }{ {(1+m^{2} -2m x)}^{\frac{3}{2}} }\\
 \end{equation}
 \begin{equation}
-    F_{z} = \frac{ kQq }{ 4\pi a^{2} } \int_{-1}^{1} \frac{ (-m^{2}-2mx) dx }{ {(1+m^{2} -2m x)}^{\frac{3}{2}} }\\
+    F_{z} = \frac{ kQq }{ 4m a^{2} } \int_{-1}^{1} \frac{ (-m^{2}-2mx) dx }{ {(1+m^{2} -2m x)}^{\frac{3}{2}} }\\
 \end{equation}
 \begin{equation}
-    F_{z} = \frac{ kQq }{ 4\pi a^{2} } \int_{-1}^{1} \frac{ ( 1 + m^{2}-2mx+m^{2}-1 ) dx }{ {(1+m^{2} -2m x)}^{\frac{3}{2}} }\\
+    F_{z} = \frac{ kQq }{ 4m a^{2} } \int_{-1}^{1} \frac{ ( 1 + m^{2}-2mx+m^{2}-1 ) dx }{ {(1+m^{2} -2m x)}^{\frac{3}{2}} }\\
 \end{equation}
 \begin{equation}
-    F_{z} = \frac{ kQq }{ 4\pi a^{2} } \int_{-1}^{1} \frac{ (m^{2}-2mx)dx }{ {(1+m^{2}-2mx)}^{\frac{3}{2}} } \int_{-1}^{1} \frac{ (m^{2} - 1)dx }{ {(1+m^{2}-2mx)}^{\frac{3}{2}}} \\
+    F_{z} = \frac{ kQq }{ 4m a^{2} } \int_{-1}^{1} \frac{ (m^{2}-2mx)dx }{ {(1+m^{2}-2mx)}^{\frac{3}{2}} } \int_{-1}^{1} \frac{ (m^{2} - 1)dx }{ {(1+m^{2}-2mx)}^{\frac{3}{2}}} \\
 \end{equation}
 \begin{equation}
-    F_{z} = \frac{ kQq }{ 4\pi a^{2} } \int_{-1}^{1} {(1 + m^{2} -2mx)}^{-\frac{1}{2}} \int_{-1}^{1} {(1 + m^{2} -2mx)}^{-\frac{3}{2}} \\
+    F_{z} = \frac{ kQq }{ 4m^{2} a^{2} } \int_{-1}^{1} {(1 + m^{2} -2mx)}^{-\frac{1}{2}} \int_{-1}^{1} {(1 + m^{2} -2mx)}^{-\frac{3}{2}} \\
 \end{equation}
 \begin{equation}
-    F_{z} =- \frac{ kQq }{ 4\pi a^{2} } \left( \left| m - 1 \right| - \left| m + 1 \right| - \left( m^{2} - 1 \right) \left( \frac{1}{ \left| m - 1 \right| } - \frac{1}{ \left| m + 1 \right| } \right) \right)\\
+    F_{z} =- \frac{ kQq }{ 4m^{2} a^{2} } \left( \left| m - 1 \right| - \left| m + 1 \right| - \left( m^{2} - 1 \right) \left( \frac{1}{ \left| m - 1 \right| } - \frac{1}{ \left| m + 1 \right| } \right) \right)\\
 \end{equation}
 
 $ m=\frac{z}{a} ; m>1 \implies z > a$ deasupra mingii 
 
 \begin{equation}
-   \implies F_{z} =- \frac{ kQq }{ 4\pi a^{2} } \left(  m - 1  -  m + 1  - \left( m^{2} - 1 \right) \left( \frac{1}{  m - 1  } - \frac{1}{  m + 1  } \right) \right)\\
+   \implies F_{z} =- \frac{ kQq }{ 4m^{2} a^{2} } \left(  m - 1  - ( m + 1)  - \left( m^{2} - 1 \right) \left( \frac{1}{  m - 1  } - \frac{1}{  m + 1  } \right) \right)\\
 \end{equation}
 
 \begin{equation}
-    F_{z} =- \frac{ kQq }{ 4\pi a^{2} } \left(  -4\right) \\
+    F_{z} =- \frac{ kQq }{ 4m^{2} a^{2} } \left(  -4\right) \\
 \end{equation}
 
 \begin{equation}
-    F_{z} = \frac{ 4kQq }{ 4\pi a^{2} } = \frac{kQq}{m^{2}a^{2}}=\frac{kQq}{z^{2}} \\
+    F_{z} = \frac{ 4kQq }{ 4m^{2} a^{2} } = \frac{kQq}{m^{2}a^{2}}=\frac{kQq}{z^{2}} \\
+\end{equation}
+
+$ m=\frac{z}{a} ; m<1 \implies z < a$ în minge 
+
+\begin{equation}
+   \implies F_{z} =- \frac{ kQq }{ 4m^{2} a^{2} } \left(  1-m  - ( m + 1)  - \left( m^{2} - 1 \right) \left( \frac{1}{  1 - m  } - \frac{1}{  m + 1  } \right) \right)\\
+\end{equation}
+
+\begin{equation}
+    F_{z} =- \frac{ kQq }{ 4m^{2} a^{2} } \left( 2m \right) \\
+\end{equation}
+
+\begin{equation}
+    F_{z} = -\frac{ 2kQqm }{ 4m^{2} a^{2} } = -\frac{kQqm}{2m^{2} a^{2}}=\frac{kQq}{2 z a} \\
 \end{equation}
 
 \end{document}
