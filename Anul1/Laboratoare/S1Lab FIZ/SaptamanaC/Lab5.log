@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2025.1.13)  13 JAN 2025 16:11
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2025.1.15)  15 JAN 2025 12:52
  restricted system commands enabled.
-**./lab4.tex
-(./lab4.tex
+**./Lab5.tex
+(./Lab5.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
@@ -924,58 +924,41 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
-z/libraries/tikzlibrarypatterns.code.tex
-File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
-arypatterns.code.tex
-File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
 tex.def
 File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count322
 Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box80
-) (./lab4.aux
-
-LaTeX Warning: Label `fig:vectors_in_plane' multiply defined.
-
-
-LaTeX Warning: Label `fig:circle_ellipse_vectors' multiply defined.
-
-
-LaTeX Warning: Label `fig:circle_ellipse_vectors' multiply defined.
-
 )
-\openout1 = lab4.aux
+No file Lab5.aux.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-7.
- (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
+\openout1 = Lab5.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+1.
+(C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 (C:/Users/matei/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
@@ -1005,78 +988,211 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 27.
-(./lab4.out) (./lab4.out)
+Package hyperref Info: Link coloring OFF on input line 31.
 \@outlinefile=\write4
 
-\openout4 = lab4.out
+\openout4 = Lab5.out
 
-Overfull \hbox (10.29382pt too wide) in paragraph at lines 47--48
- [][] 
- []
-
-
-Overfull \hbox (10.29382pt too wide) in paragraph at lines 112--113
- [][] 
+Overfull \hbox (3.04828pt too wide) in paragraph at lines 72--75
+\TU/lmr/m/n/12 con-den-sator elec-tric se nu-mește ca-pac-i-tate elec-trică 
+și în sis-temul in-ter-național
  []
 
 [1
 
 {C:/Users/matei/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (63.80847pt too wide) detected at line 148
-[][][][] [] \OML/cmm/m/it/12 a[]b[] \OT1/cmr/m/n/12 = [](\OML/cmm/m/it/12 a[]b[
-] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 a[]b[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 
-a[]b[]\OT1/cmr/m/n/12 ) = (\OML/cmm/m/it/12 a[] \OT1/cmr/m/n/12 + \OML/cmm/m/it
-/12 a[]\OT1/cmr/m/n/12 )(\OML/cmm/m/it/12 b[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/1
-2 b[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 b[]\OT1/cmr/m/n/12 ) = ([] \OML/cmm/m/
-it/12 a[]\OT1/cmr/m/n/12 )([] \OML/cmm/m/it/12 b[]\OT1/cmr/m/n/12 ) = [] [] \OM
-L/cmm/m/it/12 a[]b[]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
  []
 
-[2] [3]
-Overfull \hbox (28.72247pt too wide) in paragraph at lines 229--235
-[]$ \OT1/cmr/m/n/12 =[]\OMS/cmsy/m/n/12 )  [][] \OT1/cmr/m/n/12 = [][]$
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
  []
 
-[4] [5] [6] (./lab4.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Ustack' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endgroup' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@over' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 147.
+
+<dielectric.png, id=36, 312.16624pt x 288.07625pt>
+File: dielectric.png Graphic file (type png)
+<use dielectric.png>
+Package luatex.def Info: dielectric.png  used on input line 151.
+(luatex.def)             Requested size: 148.2019pt x 136.7673pt.
+
+Overfull \hbox (31.20071pt too wide) in paragraph at lines 151--152
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 156--158
+\TU/lmr/m/n/12 la-tor iar apoi în ace-lași condiții ex-per-i-men-tale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+[3<./dielectric.png>] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 249--257
+
+ []
+
+
+Overfull \hbox (30.01628pt too wide) in paragraph at lines 295--296
+[]\TU/lmr/m/n/12 Am uti-lizat site-ul []Graph-Pad[] pen-tru a obține dreapta de
+ re-gre-sie liniară.Ecuația
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--312
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+
+ []
+
+[6] [7] (./Lab5.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `lab4.out' has not changed.
-(rerunfilecheck)             Checksum: A570D8B947C5545350BD9E8160A6D658;917.
+
+Package rerunfilecheck Warning: File `Lab5.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Lab5.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  83A5D8C9E3A0B873E2FDDCD832D821E2;2814.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51333 strings out of 476497
+ 52003 strings out of 476497
  125027,2373549 words of node,token memory allocated
- 770 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 68 attribute, 59 glue_spec
-, 68 attribute_list, 2 write nodes
-   avail lists: 1:1,2:1622,3:933,4:69,5:585,6:30,7:2991,8:74,9:1916,10:3,11:102
- 72418 multiletter control sequences out of 65536+600000
- 47 fonts using 3268151 bytes
- 83i,11n,89p,722b,804s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<//?/c:/users/matei/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
-an12-regular.otf><//?/c:/users/matei/appdata/local/programs/miktex/fonts/opentyp
-e/public/lm/lmroman12-bold.otf><C:/Users/matei/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/matei/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/matei/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/matei/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matei/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/mat
-ei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Use
-rs/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-sy6.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb>
-Output written on lab4.pdf (6 pages, 130972 bytes).
+ 619 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 29 attribute, 60 glue_spec
+, 29 attribute_list, 2 write nodes
+   avail lists: 1:2,2:2466,3:1405,4:58,5:254,6:34,7:4365,8:63,9:850,10:14,11:262
 
-PDF statistics: 143 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 131072)
- 61 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 73121 multiletter control sequences out of 65536+600000
+ 60 fonts using 4284583 bytes
+ 83i,19n,89p,722b,2289s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<//?/c:/users/matei/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
+an8-regular.otf><//?/c:/users/matei/appdata/local/programs/miktex/fonts/opentype
+/public/lm/lmroman12-italic.otf><//?/c:/users/matei/appdata/local/programs/mikte
+x/fonts/opentype/public/lm/lmroman12-regular.otf><//?/c:/users/matei/appdata/loc
+al/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><C:/Users/matei/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/User
+s/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb><C:/Users/matei/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matei/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matei/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/matei/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matei/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matei/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users
+/matei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Lab5.pdf (7 pages, 184339 bytes).
+
+PDF statistics: 159 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
