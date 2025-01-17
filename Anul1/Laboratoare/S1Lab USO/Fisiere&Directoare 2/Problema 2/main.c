@@ -26,14 +26,14 @@ int eof(int d){
 }
 
 int main(int argc, char *argv[]){
-    int d=open("file.in",O_RDWR | O_CREAT, 0644);
+    int d=open("file.in",O_RDWR);
     if(d<0){
 		perror("Error opening file");
 		return 1;
 	}
     char c;
     ssize_t bytesRead;
-    while ( (bytesRead = read(d,& c, 1)) > 0){
+    while ( (bytesRead = read(d,&c, 1)) > 0){
         eof(d);   
     }
     return 0;
