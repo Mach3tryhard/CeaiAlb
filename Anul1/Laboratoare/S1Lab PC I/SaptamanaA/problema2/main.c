@@ -175,8 +175,6 @@ int main()
     return 0;
 }
 
-}
-
 void adaugare (char *nume_fisier_binar)
 {
     FILE* fout = fopen(nume_fisier_binar,"r+b");
