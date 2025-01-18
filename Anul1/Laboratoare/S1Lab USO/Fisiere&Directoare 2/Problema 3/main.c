@@ -55,10 +55,13 @@ int main(int argc, char *argv[]) {
             write(fd2, c, 1);
         }
     }
-    if(fold1==0 && fold2==1 && fisier2){
-        char fullpath[512];
-        strcat(fullpath,fisier1);
+    if(fold1==0 && fold2==1){
+        char fullpath[512]="\0";
         strcat(fullpath,fisier2);
+        if(fisier2[strlen(fisier2)-1]!='/'){
+            strcat(fullpath,"/");
+        }
+        strcat(fullpath,fisier1);
         int caca=link( fisier1,fullpath );
         int caca1=unlink(fisier1);
     }
