@@ -18,6 +18,7 @@ int main(int argc,char *argv[]){
         v[it]=c;
         it+=1;
     }
+    fclose(fin);
 
     int a=atoi(argv[2]);
     int b=atoi(argv[3]);
@@ -37,15 +38,11 @@ int main(int argc,char *argv[]){
                 args[1] = argv[1];
                 if(i==0){
                     sprintf(args[2], "%d", a);
-                    sprintf(args[3], "%d", b/2);
-                    //args[2]=a;
-                    //args[3]=b/2;
+                    sprintf(args[3], "%d", (a+b)/2);
                 }
                 if(i==1){
-                    sprintf(args[2], "%d", b/2);
+                    sprintf(args[2], "%d", (a+b)/2+1);
                     sprintf(args[3], "%d", b);
-                    //args[2]=b/2;
-                    //args[3]=b;
                 }
                 args[4]=NULL;
                 printf("%s %s program cu acest ab \n",args[2],args[3]);
