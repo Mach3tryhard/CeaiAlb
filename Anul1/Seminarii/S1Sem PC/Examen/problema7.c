@@ -23,7 +23,7 @@ void Citire(FILE* fin){
     for(int i=0;i<n;i++){
         printf("%d ",v[i]);
     }
-    close(fin);
+    fclose(fin);
 }
 
 long long Suma(int p1,int p2){
