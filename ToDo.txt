@@ -1,16 +1,21 @@
--UNI TODO
-Parcurgi Laboratoarele USO
-Termina Lab PC 
-Invata la analiza
-Scaneaza curs PL
-Scaneaza Lab Mecanica (cautat resurse trimise)
-Scris curs Electricitate lipsa
-Scanat curs electricitate
-tablele cu lectii lab uso
--SITE TODO
-Adauga Langston ant si termina featureurile
+--UNI TODO--
 
-title change
-Geometry and Math
-Physics and Simulation
+Termina Lab PC 
+Temina Examen AG
+
+Cauta Rezolvare Examen Mecanica
+Cauta Cerinta Examen Electricitate
+
+Adauga Examen Analiza
+
+Scaneaza Seminar AM
+Scaneaza Curs AM
+Scaneaza Curs Electricitate
+
+--SITE TODO--
+
+Adauga Langston ant si Sand Physics
+
+*title change:
+{Geometry and Math , Physics and Simulation}
 
