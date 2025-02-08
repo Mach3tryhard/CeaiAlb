@@ -54,7 +54,7 @@
     </video>
     <header class="text-white py-44 bg-black">
         <div class="container mx-auto text-center header-content rounded-none">
-            <h1 class="font-celestenet text-6xl font-bold mb-10 tracking-wider">Geometry</h1>
+            <h1 class="font-celestenet text-6xl font-bold mb-10 tracking-wider">Geometry and Math</h1>
             <a class="font-celestenet text-xm ">Projects that are based on geometry and math.</a>
             <div class="flex justify-center py-7">
                 <a href="../CV/main.pdf" download class="bg-purple-500 hover:bg-purple-700 text-white text-2xl  py-3 px-8 rounded-sm mr-5 ">
@@ -82,7 +82,7 @@
                         Geometry and math related projects:
                     </p>
                     <button class="bg-purple-500 hover:bg-purple-700 text-white text-10 w-full py-2 rounded-sm" onclick="GoToPage('geometry')">
-                        Geometry
+                        Geometry and Math
                     </button>
                     <p class="font-celestenet text-left text-white mt-4">
                         Physics and simulation related projects:
@@ -124,6 +124,24 @@
             </div>
             <!-- Right Side -->
             <div class="w-2/3 flex flex-col space-y-8">
+                <div class="bg-light py-8 px-6 rounded-xl shadow">
+                    <div class="flex items-center space-x-4 justify-between flow-root">
+                        <img class="float-left w-32 h-32 justify-between rounded-md" src="../Media/hyperboloid.png" alt="hyperboloid">
+                        <h1 class="font-celestenet float-left text-black text-2xl font-bold ml-auto tracking-wider mt-10">Langston's Ant</h1>
+                        <p class="float-left font-celestenet text-left text-black mt-4">
+                            Langston's ant project. You can see how the ant moves on the grid and give it different rules to follow. Can generate up to a million steps a second. (Javascript)
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-4 mt-4 flow-root">
+                        <button class="float-left bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://github.com/Mach3tryhard/LangstonAnt')">
+                            <i class="fas fa-code mr-2"></i>Code
+                        </button>
+                        <button class="float-left bg-purple-500 hover:bg-purple-700 text-white text-xl py-2 px-8 rounded-md" onclick="GoToPage('https://mach3tryhard.github.io/LangstonAnt/')">
+                            <i class="fas fa-link mr-2"></i>Link
+                        </button>
+                        <h1 class="font-celestenet float-right text-black text-2xl font-bold ml-auto mb-2 tracking-wider">2025</h1>
+                    </div>
+                </div>
                 <div class="bg-light py-8 px-6 rounded-xl shadow">
                     <div class="flex items-center space-x-4 justify-between flow-root">
                         <img class="float-left w-32 h-32 justify-between rounded-md" src="../Media/hyperboloid.png" alt="hyperboloid">
@@ -171,10 +189,10 @@
             return;
         }
         if(pagina=="main"){
-            window.location.href = "/CeaiAlb/index.html";
+            window.location.href = "/FMI-CTI/index.html";
             return;
         }
-        window.location.href = "/CeaiAlb/Site/Pages/"+pagina+".html";
+        window.location.href = "/FMI-CTI/Site/Pages/"+pagina+".html";
     }
 </script>
 </html>
