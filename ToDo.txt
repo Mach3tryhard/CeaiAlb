@@ -1,12 +1,8 @@
 --UNI TODO--
 
 Termina Lab PC 
-Temina Examen AG
-
-Cauta Rezolvare Examen Mecanica
-Cauta Cerinta Examen Electricitate
-
-Adauga Examen Analiza
+Termina Examen AG
+Termina Examen Analiza
 
 Scaneaza Seminar AM
 Scaneaza Curs AM
