@@ -5,7 +5,6 @@ Termina Examen AG
 Termina Examen Analiza
 
 Scaneaza Curs AM
-Scaneaza Curs Electricitate
 
 Scrie ReadMe la inceput (Cuprins)
 Scrie un Readme la fiecare Categorie (Capitol)
