@@ -15,3 +15,5 @@ Finish 3d Game
 Add more settings to langstons ant
 Add vibration mode to Sand Physics
 Maybe create a Minecraft automation app
+
+Download Libraries of the old projects to the repo in case the cnd doesnt work anymore
