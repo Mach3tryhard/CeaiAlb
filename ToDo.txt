@@ -10,7 +10,8 @@ Scaneaza Curs Electricitate
 Scrie ReadMe la inceput (Cuprins)
 Scrie un Readme la fiecare Categorie (Capitol)
 
---SITE TODO--
-
-Add old website to websites page
-
+--Altele--
+Finish 3d Game
+Add more settings to langstons ant
+Add vibration mode to Sand Physics
+Maybe create a Minecraft automation app
