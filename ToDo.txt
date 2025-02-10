@@ -4,10 +4,13 @@ Termina Lab PC
 Termina Examen AG
 Termina Examen Analiza
 
-Scaneaza Curs AM
-
-Scrie ReadMe la inceput (Cuprins)
 Scrie un Readme la fiecare Categorie (Capitol)
+-AM
+-AG
+-USO
+-PL
+-PC
+-FIZ
 
 --Altele--
 Finish 3d Game
