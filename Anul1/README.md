@@ -1,7 +1,4 @@
-# FMI-CTI 2024-2028
-
-# Cuprins
-## [Anul 1](https://github.com/Mach3tryhard/FMI-CTI/tree/main/Anul1)
+# [Anul 1](https://github.com/Mach3tryhard/FMI-CTI/tree/main/Anul1)
 
 ### **SEMESTRUL 1**
 ### Matematica
