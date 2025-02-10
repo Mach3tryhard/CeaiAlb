@@ -2,9 +2,9 @@
 ## Informatii
 
     E - Punctaj Examen - 10 pct
-    C - Prezenta Curs - 1 pct
-    S - Raspuns Seminar - 1 pct
-    P - Proiect bonus - 1 pct
+    C - Prezenta Curs - 1 pct ( 0,1 pe o prezenta)
+    S - Raspuns Seminar - 1 pct (0,1 pe un raspuns)
+    P - Proiect bonus - 1 pct (1 pe prezentare)
     N=min(10,E+C+S+P);
 
 ## Curs
@@ -71,9 +71,9 @@
  14.  [**Seminar 14**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Algebra%20si%20Geometrie/S1AG%20Seminar/SeminarE.pdf) (lipseste)
 ## Examen
 ### Cerinta
-[**Cerinta Examen1**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Algebra%20si%20Geometrie/S1AG%20Examen/Cerinta/CerintaAG1.jpeg)
-[**Cerinta Examen2**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Algebra%20si%20Geometrie/S1AG%20Examen/Cerinta/CerintaAG2.jpeg)
+- [**Cerinta Examen1**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Algebra%20si%20Geometrie/S1AG%20Examen/Cerinta/CerintaAG1.jpeg)
+- [**Cerinta Examen2**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Algebra%20si%20Geometrie/S1AG%20Examen/Cerinta/CerintaAG2.jpeg)
 ### Rezolvare
-[**Rezolvare Examen1**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Algebra%20si%20Geometrie/S1AG%20Examen/Problema1.jpeg) (de facut)
-[**Rezolvare Examen2**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Algebra%20si%20Geometrie/S1AG%20Examen/Problema2a.jpeg) (de facut)
+- [**Rezolvare Examen1**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Algebra%20si%20Geometrie/S1AG%20Examen/Problema1.jpeg) (de facut)
+- [**Rezolvare Examen2**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Algebra%20si%20Geometrie/S1AG%20Examen/Problema2a.jpeg) (de facut)
 
