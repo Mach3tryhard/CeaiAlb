@@ -38,6 +38,8 @@
  9. [**Laborator 8**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Fizica/S1FIZ%20Laborator/Electricitate/Saptamana9/Lab2.pdf)
  10. [**Laborator 9**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Fizica/S1FIZ%20Laborator/Electricitate/SaptamanaB/lab4.pdf)
  11. [**Laborator 10**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Fizica/S1FIZ%20Laborator/Electricitate/SaptamanaC/Lab5.pdf)
+
+## Examen
 ### Cerinta
  - [**Cerinta Examen Mecanica**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Fizica/S1FIZ%20Examen/Mecanica/Cerinta/CerintaExamen.pdf)
  - [**Cerinta Examen Electricitate**](https://github.com/Mach3tryhard/FMI-CTI/blob/main/Anul1/Fizica/S1FIZ%20Examen/Electricitate/Cerinta/ExamenElectricitate1.pdf)
