@@ -5,11 +5,7 @@ Termina Examen AG
 Termina Examen Analiza
 
 Scrie un Readme la fiecare Categorie (Capitol)
--AM
--AG
 -USO
--PL
--PC
 -FIZ
 
 --Altele--
