@@ -5,7 +5,7 @@
     C - Prezenta Curs - 1 pct ( 0,1 pe o prezenta)
     S - Raspuns Seminar - 1 pct (0,1 pe un raspuns)
     P - Proiect bonus - 1 pct (1 pe prezentare)
-    N=min(10,E+C+S+P);
+    N = min(10, E + C + S + P);
 
 ## Curs
 ### Materie Curs

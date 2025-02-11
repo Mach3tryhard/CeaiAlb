@@ -4,7 +4,7 @@
     Et - Examen teorie - 3 pct (1 teorema pe punct)
     Ep - Examen probleme - 5 pct (3 probleme cu subpuncte)
     S - Raspunsuri seminar - 1 pct (0.1 pe raspuns)
-    N=min(10,Et+Ep+S);
+    N = min(10, Et + Ep + S);
 
 ## Curs
 ### Materie Curs
